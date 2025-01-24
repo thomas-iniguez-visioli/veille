@@ -19,8 +19,8 @@
    var year, month;
    var last_year = 1970;
    var last_month = 0;
-   var is_first_year = 1;
-   var is_first_month = 1;
+   var is_first_year = 0;
+   var is_first_month = 0;
    %>
 
 <!-- title -->
@@ -73,7 +73,7 @@
 			<% } %>
 			<% is_first_month = 0 %>
 			<li class="listing-item">
-				<span class="date_class"> <%= item.date.format("MM") %> </span> &raquo;
+				<span class="date_class"> <%= item.date.format("MM") %> </span> ;
 			</li>
 			<ul>
 			<% last_month = month; %>

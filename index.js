@@ -18,6 +18,12 @@ parser.parseURL(rssUrl)
       if (!fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#",'')}
+date: ${postTitle.split('-').slice(-2).join("\n")}
+
+
+
+
+
 ---
 ${item.contentSnippet.replace(",","\n").replace(",","\n").replace(",","\n").replace(",","\n").replace(",","\n")}
 `;

@@ -1,5 +1,12 @@
 ---
 title: Le Slip Français-2024-04-15
+date: 04
+15
+
+
+
+
+
 ---
 nom
  prénom

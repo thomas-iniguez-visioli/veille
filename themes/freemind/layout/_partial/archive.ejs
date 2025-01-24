@@ -19,6 +19,8 @@
    var year, month;
    var last_year = 1970;
    var is_first_year = 1;
+   var last_month = -1;
+   var is_first_month = 1;
    %>
 
 <!-- title -->
@@ -60,12 +62,23 @@
 			<% if (!is_first_year) { %>
 			</ul>
 			</div>
+			</div>
 			<% } %>
 			<% is_first_year = 0 %>
 			<h4 class="archive-ul" data-toggle="collapse" data-target="#<%= year %>"><%= year %><b class="caret"></b></h4>
 			<div id="<%= year %>">
-			<ul class="collapse in">
 			<% last_year = year; %>
+		<% } %>
+		<% if (month != last_month){ %>
+			<% if (!is_first_month) { %>
+			</ul>
+			</div>
+			<% } %>
+			<% is_first_month = 0 %>
+			<h5 class="archive-ul" data-toggle="collapse" data-target="#<%= month %>"><%= getMonthName(month) %><b class="caret"></b></h5>
+			<div id="<%= month %>">
+			<ul class="collapse in">
+			<% last_month = month; %>
 		<% } %>
 		<li class="listing-item">
 		<span class="date_class"> <%= item.date.format("YYYY-MM-DD") %> </span> &raquo;
@@ -81,6 +94,7 @@
 		</li>			
 		<% }); %>
 			</ul>
+			</div>
 			</div>
 		</div>
         <% } %>

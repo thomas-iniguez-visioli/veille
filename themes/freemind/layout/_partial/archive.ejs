@@ -21,6 +21,7 @@
    var is_first_year = 1;
    var last_month = -1;
    var is_first_month = 1;
+   var mois = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
    %>
 
 <!-- title -->
@@ -75,9 +76,9 @@
 			</div>
 			<% } %>
 			<% is_first_month = 0 %>
-			<h5 class="archive-ul" data-toggle="collapse" data-target="#<%= month %>"><%= getMonthName(month) %><b class="caret"></b></h5>
+			<h5 data-toggle="collapse" data-target="#<%= month %>"><%= mois[month] %><b class="caret"></b></h5>
 			<div id="<%= month %>">
-			<ul class="collapse in">
+				<ul class="collapse in">
 			<% last_month = month; %>
 		<% } %>
 		<li class="listing-item">

@@ -18,9 +18,7 @@
    }
    var year, month;
    var last_year = 1970;
-   var last_month = 0;
-   var is_first_year = 0;
-   var is_first_month = 0;
+   var is_first_year = 1;
    %>
 
 <!-- title -->
@@ -56,15 +54,16 @@
 		<% posts.sort('date', -1).each(function(item){ %>
 		<%
 		   year = item.date.toDate().getFullYear();
-		   month = item.date.toDate().getMonth() + 1; // Ajout de 1 car getMonth() commence à 0	   
+		   month = item.date.toDate().getMonth();	   
 		%>
 		<% if (year != last_year){ %>
 			<% if (!is_first_year) { %>
-			</ul>
+			</div>
 			<% } %>
 			<% is_first_year = 0 %>
 			<h4 class="archive-ul" data-toggle="collapse" data-target="#<%= year %>"><%= year %><b class="caret"></b></h4>
-			<ul id="<%= year %>" class="collapse in">
+			<div id="<%= year %>" class="collapse in">
+			<ul>
 			<% last_year = year; %>
 		<% } %>
 		<% if (month != last_month){ %>
@@ -72,10 +71,8 @@
 			</ul>
 			<% } %>
 			<% is_first_month = 0 %>
-			<li class="listing-item">
-				<span class="date_class"> <%= item.date.format("MM") %> </span> ;
-			</li>
-			<ul>
+			<h5 class="archive-ul" data-toggle="collapse" data-target="#<%= month %>"><%= getMonthName(month) %><b class="caret"></b></h5>
+			<ul id="<%= month %>" class="collapse in">
 			<% last_month = month; %>
 		<% } %>
 		<li class="listing-item">
@@ -91,7 +88,9 @@
 		<% } %>
 		</li>			
 		<% }); %>
-		</ul>
+			</ul>
+			</ul>
+			</div>
 		</div>
         <% } %>
 
@@ -101,3 +100,7 @@
 <%- partial('sidebar') %>
 <% } %>
 
+<% function getMonthName(month) { %>
+  var monthNames = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
+  return monthNames[month];
+<% } %>

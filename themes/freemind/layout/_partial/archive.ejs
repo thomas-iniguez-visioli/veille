@@ -69,6 +69,7 @@
 		<% if (month != last_month){ %>
 			<% if (!is_first_month) { %>
 			</ul>
+			</div>
 			<% } %>
 			<% is_first_month = 0 %>
 			<h5 class="archive-ul" data-toggle="collapse" data-target="#<%= month %>"><%= getMonthName(month) %><b class="caret"></b></h5>
@@ -88,7 +89,6 @@
 		<% } %>
 		</li>			
 		<% }); %>
-			</ul>
 			</ul>
 			</div>
 		</div>

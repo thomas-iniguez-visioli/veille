@@ -1,8 +1,6 @@
 ---
 title: Le Slip Français-2024-04-15
-date: 2024
-04
-15
+date: 2024-04-15
 
 
 

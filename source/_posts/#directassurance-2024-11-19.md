@@ -1,8 +1,6 @@
 ---
 title: Direct Assurance-2024-11-19
-date: 2024
-11
-19
+date: 2024-11-19
 
 
 

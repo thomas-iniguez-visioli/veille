@@ -1,8 +1,6 @@
 ---
 title: Dailymotion-2016-10-01
-date: 2016
-10
-01
+date: 2016-10-01
 
 
 

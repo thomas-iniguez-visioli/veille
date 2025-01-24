@@ -19,7 +19,7 @@ parser.parseURL(rssUrl)
         const postContentHexo = `---
 title: ${postTitle.replace("#",'')}
 ---
-${item.contentSnippet.replace(",","\n")}
+${item.contentSnippet.replace(",","\n").replace(",","\n").replace(",","\n").replace(",","\n").replace(",","\n")}
 `;
 
         fs.writeFileSync(postFilePath, postContentHexo);

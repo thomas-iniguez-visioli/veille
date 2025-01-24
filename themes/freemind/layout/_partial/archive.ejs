@@ -18,7 +18,9 @@
    }
    var year, month;
    var last_year = 1970;
+   var last_month = 0;
    var is_first_year = 1;
+   var is_first_month = 1;
    %>
 
 <!-- title -->
@@ -54,7 +56,7 @@
 		<% posts.sort('date', -1).each(function(item){ %>
 		<%
 		   year = item.date.toDate().getFullYear();
-		   month = item.date.toDate().getMonth();	   
+		   month = item.date.toDate().getMonth() + 1; // Ajout de 1 car getMonth() commence à 0	   
 		%>
 		<% if (year != last_year){ %>
 			<% if (!is_first_year) { %>
@@ -64,6 +66,17 @@
 			<h4 class="archive-ul" data-toggle="collapse" data-target="#<%= year %>"><%= year %><b class="caret"></b></h4>
 			<ul id="<%= year %>" class="collapse in">
 			<% last_year = year; %>
+		<% } %>
+		<% if (month != last_month){ %>
+			<% if (!is_first_month) { %>
+			</ul>
+			<% } %>
+			<% is_first_month = 0 %>
+			<li class="listing-item">
+				<span class="date_class"> <%= item.date.format("YYYY-MM") %> </span> &raquo;
+			</li>
+			<ul>
+			<% last_month = month; %>
 		<% } %>
 		<li class="listing-item">
 		<span class="date_class"> <%= item.date.format("YYYY-MM-DD") %> </span> &raquo;

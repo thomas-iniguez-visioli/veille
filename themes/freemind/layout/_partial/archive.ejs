@@ -58,23 +58,14 @@
 		%>
 		<% if (year != last_year){ %>
 			<% if (!is_first_year) { %>
+			</ul>
 			</div>
 			<% } %>
 			<% is_first_year = 0 %>
 			<h4 class="archive-ul" data-toggle="collapse" data-target="#<%= year %>"><%= year %><b class="caret"></b></h4>
-			<div id="<%= year %>" class="collapse in">
-			<ul>
+			<div id="<%= year %>">
+			<ul class="collapse in">
 			<% last_year = year; %>
-		<% } %>
-		<% if (month != last_month){ %>
-			<% if (!is_first_month) { %>
-			</ul>
-			</div>
-			<% } %>
-			<% is_first_month = 0 %>
-			<h5 class="archive-ul" data-toggle="collapse" data-target="#<%= month %>"><%= getMonthName(month) %><b class="caret"></b></h5>
-			<ul id="<%= month %>" class="collapse in">
-			<% last_month = month; %>
 		<% } %>
 		<li class="listing-item">
 		<span class="date_class"> <%= item.date.format("YYYY-MM-DD") %> </span> &raquo;
@@ -100,7 +91,3 @@
 <%- partial('sidebar') %>
 <% } %>
 
-<% function getMonthName(month) { %>
-  var monthNames = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
-  return monthNames[month];
-<% } %>

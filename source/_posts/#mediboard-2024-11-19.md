@@ -1,7 +1,6 @@
 ---
 title: Mediboard-2024-11-19
-date: 11
-19
+date: 2024
 
 
 

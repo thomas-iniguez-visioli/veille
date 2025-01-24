@@ -1,4 +1,4 @@
 ---
-title: #Le Slip Français-2024-04-15
+title: Le Slip Français-2024-04-15
 ---
 

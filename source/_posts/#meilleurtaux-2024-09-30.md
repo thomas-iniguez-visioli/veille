@@ -1,4 +1,4 @@
 ---
-title: #Meilleurtaux-2024-09-30
+title: Meilleurtaux-2024-09-30
 ---
 

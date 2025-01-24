@@ -1,4 +1,4 @@
 ---
-title: #Guy Demarle-2024-12-03
+title: Guy Demarle-2024-12-03
 ---
 

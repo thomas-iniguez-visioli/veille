@@ -1,4 +1,4 @@
 ---
-title: #Ticketmaster-2024-04-28
+title: Ticketmaster-2024-04-28
 ---
 

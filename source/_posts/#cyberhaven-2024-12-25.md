@@ -1,4 +1,4 @@
 ---
-title: #Cyberhaven-2024-12-25
+title: Cyberhaven-2024-12-25
 ---
 

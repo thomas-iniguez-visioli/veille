@@ -1,4 +1,4 @@
 ---
-title: #Free Mobile-2024-10-25
+title: Free Mobile-2024-10-25
 ---
 

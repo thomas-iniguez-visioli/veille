@@ -1,4 +1,4 @@
 ---
-title: #Dailymotion-2016-10-01
+title: Dailymotion-2016-10-01
 ---
 

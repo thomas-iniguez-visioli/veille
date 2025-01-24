@@ -1,4 +1,4 @@
 ---
-title: #Almerys, Viamedis-2024-02-06
+title: Almerys, Viamedis-2024-02-06
 ---
 

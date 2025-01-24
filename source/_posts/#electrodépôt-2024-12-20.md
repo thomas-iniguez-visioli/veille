@@ -1,4 +1,4 @@
 ---
-title: #Electro Dépôt-2024-12-20
+title: Electro Dépôt-2024-12-20
 ---
 

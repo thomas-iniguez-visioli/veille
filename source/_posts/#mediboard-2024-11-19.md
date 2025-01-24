@@ -1,4 +1,4 @@
 ---
-title: #Mediboard-2024-11-19
+title: Mediboard-2024-11-19
 ---
 

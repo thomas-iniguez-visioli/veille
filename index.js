@@ -14,12 +14,12 @@ parser.parseURL(rssUrl)
 
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
-
+        console.log(item)
       if (!fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#",'')}
 ---
-
+${item.contentSnippet}
 `;
 
         fs.writeFileSync(postFilePath, postContentHexo);

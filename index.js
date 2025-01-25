@@ -28,7 +28,7 @@ parser.parseURL(rssUrl)
         if(!fs.existsSync(hexoPostDir)){
           fs.mkdirSync(hexoPostDir)
         }
-      const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
+      const postFileName = `${postTitle.split("-")[0].replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         console.log(item)
       if (!fs.existsSync(postFilePath)) {

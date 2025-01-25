@@ -1,0 +1,13 @@
+---
+title: RED by SFR-2024-09-18
+date: 2024-09-18
+---
+nom
+prénom
+adresse email
+adresse postale
+numéro de téléphone
+IBAN
+type de forfait
+identifiant de la carte SIM
+identifiant du smartphone

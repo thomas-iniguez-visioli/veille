@@ -1,0 +1,10 @@
+---
+title: JVS-2024-11-26
+date: 2024-11-26
+---
+nom
+prénom
+adresse email
+login
+numéro de téléphone
+collectivité

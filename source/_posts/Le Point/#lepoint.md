@@ -1,0 +1,9 @@
+---
+title: Le Point-2024-11-18
+date: 2024-11-18
+---
+nom
+adresse email
+numéro de téléphone
+adresse postale
+date de naissance

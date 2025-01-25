@@ -1,0 +1,11 @@
+---
+title: Fédération Française Montagne Escalade-2025-01-24
+date: 2025-01-24
+---
+nom
+prénom
+adresse postale
+adresse email
+identifiant
+date de naissance
+numéro de téléphone

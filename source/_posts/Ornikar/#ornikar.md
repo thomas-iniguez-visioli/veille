@@ -1,0 +1,10 @@
+---
+title: Ornikar-2024-10-24
+date: 2024-10-24
+---
+nom
+prénom
+date de naissance
+adresse email
+adresse postale
+numéro de téléphone

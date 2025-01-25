@@ -1,9 +1,0 @@
----
-title: Cybertek-2024-09-12
-date: 2024-09-12
----
-nom
-prénom
-adresse email
-adresse postale
-numéro de téléphone

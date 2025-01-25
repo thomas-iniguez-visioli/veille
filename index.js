@@ -14,6 +14,16 @@ parser.parseURL(rssUrl)
     feed.items.forEach(item => {
       const postTitle = item.link.split('/').pop();
       postTitle.split("-")[0].replace("#",'').split(",").map((Dir)=>{
+        const yaml = require('js-yaml');
+        const configFilePath = './_config.yml';
+        const configContent = fs.readFileSync(configFilePath, 'utf8');
+        const config = yaml.load(configContent);
+        if (!config.tag_map) {
+          config.tag_map = [];
+        }
+        config.tag_map.push(Dir);
+        const updatedConfigContent = yaml.dump(config);
+        fs.writeFileSync(configFilePath, updatedConfigContent);
         const hexoPostDir= path.join(PostDir,Dir)
         if(!fs.existsSync(hexoPostDir)){
           fs.mkdirSync(hexoPostDir)

@@ -12,4 +12,7 @@ nom
  date de naissance et de décès
  genre
  numéro de téléphone
- médecin traitant, prescriptions médicales, identifiant externe, historique des soins
+ médecin traitant
+ prescriptions médicales
+ identifiant externe
+ historique des soins

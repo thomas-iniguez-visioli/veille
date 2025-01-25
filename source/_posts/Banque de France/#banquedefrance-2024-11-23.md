@@ -12,4 +12,7 @@ identité des employés
  salaire
  identité des clients
  comptes bancaires
- historique, webmail, documents stratégiques, rapports financiers
+ historique
+ webmail
+ documents stratégiques
+ rapports financiers

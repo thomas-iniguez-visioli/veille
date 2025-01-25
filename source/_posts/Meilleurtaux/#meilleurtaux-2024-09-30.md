@@ -12,4 +12,7 @@ nom
  date de naissance
  pays de naissance
  adresse postale
- numéro de téléphone, situation professionnelle, situation familiale, revenus
+ numéro de téléphone
+ situation professionnelle
+ situation familiale
+ revenus

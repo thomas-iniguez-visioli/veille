@@ -12,4 +12,5 @@ nom
  adresse postale
  adresse email
  identifiant
- date de naissance, numéro de téléphone
+ date de naissance
+ numéro de téléphone

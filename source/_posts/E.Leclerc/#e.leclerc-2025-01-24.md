@@ -12,4 +12,5 @@ nom
  adresse email
  identifiant d’accès
  numéro de dossier
- montant de prime, libellé de prestation
+ montant de prime
+ libellé de prestation

@@ -12,4 +12,5 @@ nom
  numéro de sécurité sociale
  adresse email
  adresse postale
- numéro de téléphone, identifiants France Travail
+ numéro de téléphone
+ identifiants France Travail

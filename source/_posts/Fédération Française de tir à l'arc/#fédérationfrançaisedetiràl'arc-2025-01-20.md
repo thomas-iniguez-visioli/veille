@@ -12,4 +12,6 @@ nom
  sexe
  date de naissance
  adresse postale
- téléphone, adresse email, photo de profil
+ téléphone
+ adresse email
+ photo de profil

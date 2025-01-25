@@ -12,4 +12,5 @@ nom
  adresse email
  adresse postale
  date et lieu de naissance
- numéro de téléphone, numéro de licence
+ numéro de téléphone
+ numéro de licence

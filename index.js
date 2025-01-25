@@ -18,10 +18,10 @@ parser.parseURL(rssUrl)
         const configFilePath = './_config.yml';
         const configContent = fs.readFileSync(configFilePath, 'utf8');
         const config = yaml.load(configContent);
-        if (!config.tag_map) {
-          config.tag_map = [];
+        if (!config.category_map) {
+          config.category_map = [];
         }
-        config.tag_map.push(Dir);
+        config.category_map.push(Dir);
         const updatedConfigContent = yaml.dump(config);
         fs.writeFileSync(configFilePath, updatedConfigContent);
         const hexoPostDir= path.join(PostDir,Dir)
@@ -35,11 +35,6 @@ parser.parseURL(rssUrl)
         const postContentHexo = `---
 title: ${postTitle.replace("#",'')}
 date: ${postTitle.split('-').slice(-3).join("-")}
-
-
-
-
-
 ---
 ${parsecontent(item.contentSnippet)}
 `;

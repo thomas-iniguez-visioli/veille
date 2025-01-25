@@ -7,7 +7,7 @@ const parser = new Parser();
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml'; // Remplacez par l'URL de votre flux RSS
 const PostDir = './source/_posts'; // Répertoire où seront créés les posts Hexo
 const parsecontent=(txt)=>{
-  return txt.replace(/,/g, '\n').trim();
+  return txt.split(',').map(line => line.trim()).join('\n');
 }
 parser.parseURL(rssUrl)
   .then(feed => {

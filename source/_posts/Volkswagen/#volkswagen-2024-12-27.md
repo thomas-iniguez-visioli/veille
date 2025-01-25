@@ -8,4 +8,4 @@ date: 2024-12-27
 
 ---
 données client
- localisation
+localisation

@@ -8,10 +8,10 @@ date: 2025-01-20
 
 ---
 nom
- prénom
- sexe
- date de naissance
- adresse postale
- téléphone
- adresse email
- photo de profil
+prénom
+sexe
+date de naissance
+adresse postale
+téléphone
+adresse email
+photo de profil

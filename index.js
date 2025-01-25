@@ -5,13 +5,17 @@ const Parser = require('rss-parser');
 const parser = new Parser();
 
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml'; // Remplacez par l'URL de votre flux RSS
-const hexoPostDir = './source/_posts'; // Répertoire où seront créés les posts Hexo
+const PostDir = './source/_posts'; // Répertoire où seront créés les posts Hexo
 
 parser.parseURL(rssUrl)
   .then(feed => {
     feed.items.forEach(item => {
       const postTitle = item.link.split('/').pop();
-
+      postTitle.split("-")[0].replace("#",'').split(",").map((Dir)=>{
+        const hexoPostDir= path.join(PostDir,Dir)
+        if(!fs.existsSync(hexoPostDir)){
+          fs.mkdirSync(hexoPostDir)
+        }
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         console.log(item)
@@ -35,8 +39,8 @@ ${item.contentSnippet.replace(",","\n").replace(",","\n").replace(",","\n").repl
       }
     });
   })
-  .catch(error => {
-    console.error(error);
-  });
+  
 
+      })
+      
 

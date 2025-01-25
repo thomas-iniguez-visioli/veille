@@ -30,19 +30,19 @@ parser.parseURL(rssUrl)
         }
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
-        console.log(item)
+        //console.log(item)
       if (!fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#",'').split("-")[0]}
 date: ${postTitle.split('-').slice(-3).join("-")}
 ---
-${parsecontent(item.contentSnippet)}
+${parsecontent(item.contentSnippet)||"pas d'information actuellement"}
 `;
 
         fs.writeFileSync(postFilePath, postContentHexo);
-        console.log(`Post créé : ${postFileName}`);
+        //console.log(`Post créé : ${postFileName}`);
       } else {
-        console.log(`Post déjà existant : ${postFileName}`);
+        //console.log(`Post déjà existant : ${postFileName}`);
       }
     });
   })
@@ -51,3 +51,14 @@ ${parsecontent(item.contentSnippet)}
       })
       
 
+      var sudoku = require('sudoku');
+      const t =sudoku.makepuzzle().map((item)=>{
+        var puzzle     = sudoku.makepuzzle();
+        var solution   = sudoku.solvepuzzle(puzzle);
+        var difficulty = sudoku.ratepuzzle(puzzle, 9);
+        console.log(puzzle)
+        console.log(solution)
+        console.log(difficulty)
+        return difficulty
+      })
+   console.log(t)

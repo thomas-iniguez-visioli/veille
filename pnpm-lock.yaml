@@ -50,6 +50,9 @@ importers:
       rss-parser:
         specifier: ^3.13.0
         version: 3.13.0
+      sudoku:
+        specifier: ^0.0.3
+        version: 0.0.3
 
 packages:
 
@@ -846,6 +849,9 @@ packages:
   stylus@0.62.0:
     resolution: {integrity: sha512-v3YCf31atbwJQIMtPNX8hcQ+okD4NQaTuKGUWfII8eaqn+3otrbttGL1zSMZAAtiPsBztQnujVBugg/cXFUpyg==}
     hasBin: true
+
+  sudoku@0.0.3:
+    resolution: {integrity: sha512-8UU9b39qCJzncdgGT2jbSjAaNdFNJasoZcgKWt7pZ5zVA6Way8yIP9kR8aS2TA/KOwehu0a5uS43eQxrW4hCIA==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -1838,6 +1844,8 @@ snapshots:
       source-map: 0.7.4
     transitivePeerDependencies:
       - supports-color
+
+  sudoku@0.0.3: {}
 
   supports-color@7.2.0:
     dependencies:

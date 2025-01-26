@@ -36,7 +36,7 @@ parser.parseURL(rssUrl)
 title: ${postTitle.replace("#",'').split("-")[0]}
 date: ${postTitle.split('-').slice(-3).join("-")}
 ---
-[source]("${item.link}")
+[source]("${item.link.replace(" ","_")}")
 ${parsecontent(item.contentSnippet)||"pas d'information actuellement"}
 `;
 

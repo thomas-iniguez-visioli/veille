@@ -31,12 +31,13 @@ parser.parseURL(rssUrl)
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
-      if (!fs.existsSync(postFilePath)) {
+      if (fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#",'').split("-")[0]}
 date: ${postTitle.split('-').slice(-3).join("-")}
+link:${item.link}
 ---
-[source](${parsecontent(item.link," ","_").replace(" ","_")}  )
+
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}
 `;
 

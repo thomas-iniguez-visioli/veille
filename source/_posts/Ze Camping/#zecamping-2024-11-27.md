@@ -1,8 +1,9 @@
 ---
 title: Ze Camping
 date: 2024-11-27
+link:https://bonjourlafuite.eu.org/#Ze Camping-2024-11-27
 ---
-[source](https://bonjourlafuite.eu.org/#Ze_Camping-2024-11-27  )
+
 nom
 prénom
 login

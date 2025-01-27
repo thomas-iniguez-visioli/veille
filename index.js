@@ -63,4 +63,4 @@ ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}
         console.log(difficulty)
         return difficulty
       })
-   console.log(t)
+   //console.log(t)

@@ -35,7 +35,7 @@ parser.parseURL(rssUrl)
         const postContentHexo = `---
 title: ${postTitle.replace("#",'').split("-")[0]}
 date: ${postTitle.split('-').slice(-3).join("-")}
-lien: '${item.link}'
+lien: "${item.link}"
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}

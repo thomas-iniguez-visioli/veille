@@ -58,9 +58,9 @@ ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}
         var puzzle     = sudoku.makepuzzle();
         var solution   = sudoku.solvepuzzle(puzzle);
         var difficulty = sudoku.ratepuzzle(puzzle, 9);
-        console.log(puzzle)
+       /* console.log(puzzle)
         console.log(solution)
-        console.log(difficulty)
+        console.log(difficulty)*/
         return difficulty
       })
    //console.log(t)

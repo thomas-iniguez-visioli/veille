@@ -1,8 +1,9 @@
 ---
 title: Fédération Française de Roller Skateboard
 date: 2025-01-14
+link:https://bonjourlafuite.eu.org/#Fédération Française de Roller Skateboard-2025-01-14
 ---
-[source](https://bonjourlafuite.eu.org/#Fédération_Française_de_Roller_Skateboard-2025-01-14  )
+
 nom
 prénom
 adresse email

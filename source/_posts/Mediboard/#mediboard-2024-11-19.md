@@ -1,8 +1,9 @@
 ---
 title: Mediboard
 date: 2024-11-19
+link:https://bonjourlafuite.eu.org/#Mediboard-2024-11-19
 ---
-[source](https://bonjourlafuite.eu.org/#Mediboard-2024-11-19  )
+
 nom
 prénom
 date de naissance et de décès

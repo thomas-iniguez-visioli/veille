@@ -1,7 +1,7 @@
 ---
 title: Mediboard
 date: 2024-11-19
-link:https://bonjourlafuite.eu.org/#Mediboard-2024-11-19
+link: 'https://bonjourlafuite.eu.org/#Mediboard-2024-11-19'
 ---
 
 nom

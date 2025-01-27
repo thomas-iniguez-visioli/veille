@@ -1,7 +1,7 @@
 ---
 title: Assurance retraite
 date: 2024-09-13
-link:https://bonjourlafuite.eu.org/#Assurance retraite-2024-09-13
+link: 'https://bonjourlafuite.eu.org/#Assurance retraite-2024-09-13'
 ---
 
 nom

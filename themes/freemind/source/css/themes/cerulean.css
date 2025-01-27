@@ -186,7 +186,7 @@ textarea {
   margin: 0;
 }
 button {
-  overflow: visible;
+  overflow: hidden;
 }
 button,
 select {

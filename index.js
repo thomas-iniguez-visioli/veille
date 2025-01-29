@@ -20,8 +20,8 @@ parser.parseURL(rssUrl)
         const config = yaml.load(configContent);
         if (!config.category_map) {
           config.category_map = [];
-        }
-        config.category_map.push(Dir);
+        }if(! config.category_map.includes(Dir)){
+        config.category_map.push(Dir);}
         const updatedConfigContent = yaml.dump(config);
         fs.writeFileSync(configFilePath, updatedConfigContent);
         const hexoPostDir= path.join(PostDir,Dir)

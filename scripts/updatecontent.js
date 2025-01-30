@@ -1,2 +1,2 @@
 console.log(hexo)
-hexo.extend.processor.register("server_middleware", (app) => {console.log(app)})
+hexo.extend.processor.register("preprocessor", (app) => {console.log(app)})

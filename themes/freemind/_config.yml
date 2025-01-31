@@ -1,9 +1,8 @@
-slogan: "les loi du listenbourg "
-
+slogan: "liste des fuite trouvée"
 theme: cerulean
 inverse: false
 # whether to show h2 and h3 titles in excerpts
-show_title_in_excerpt: false
+show_title_in_excerpt: true
 feed:
   enable: true
   type: atom
@@ -25,12 +24,12 @@ menu:
  
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
+  - title: code
+    url: https://github.com/alphaleadership/feed/
+    intro: "le code ."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: https://github.com/alphaleadership/
     intro: "My Github account."
     icon: "fa fa-github"
 

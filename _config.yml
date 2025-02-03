@@ -151,6 +151,11 @@ tag_map:
   - ' Viamedis'
   - Dailymotion
 meta_generator: true
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 updated_option: mtime

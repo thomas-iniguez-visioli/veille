@@ -16,6 +16,12 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+# abbrlink config
+abbrlink:
+  alg: crc16      #support crc16(default) and crc32
+  rep: dec        #support dec(default) and hex
+  allow: ['post','school','cpp',"java","blog"] #Allowed template types. The default is (" post ")
+  disallow: [] #Unallowed template type. Default is an empty list
 menu:
   - title: Archives
     url: archives

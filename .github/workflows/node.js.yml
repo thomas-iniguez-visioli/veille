@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-        TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     strategy:
       matrix:
         node-version: [ 23.x]
@@ -27,6 +27,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'

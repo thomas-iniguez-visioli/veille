@@ -165,5 +165,12 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/alphaleadership/feed
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: pages
+  name: alphaleadership
+  email: thomas.iniguez@free.fr
+  token: "$TOKEN"

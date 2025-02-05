@@ -170,7 +170,7 @@ deploy:
   repo: 
     github:
       url: https://github.com/alphaleadership/feed.git
-      branch: pages
+      branch: gh-pages
       token: $GITHUB_TOKEN
   name: alphaleadership
   email: thomas.iniguez@free.fr

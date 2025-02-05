@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
     strategy:
       matrix:
         node-version: [ 23.x]
@@ -28,17 +28,17 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i thomas-iniguez-visioli/hexo-generator-feed
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
     - run: npm run build --if-present
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
     - run: node index 
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
     - uses: stefanzweifel/git-auto-commit-action@v5

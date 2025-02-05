@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const Parser = require('rss-parser');
-
+console.log(process.env)
 const parser = new Parser();
 
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml'; // Remplacez par l'URL de votre flux RSS

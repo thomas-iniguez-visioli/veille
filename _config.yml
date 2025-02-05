@@ -171,4 +171,4 @@ deploy:
   branch: pages
   name: alphaleadership
   email: thomas.iniguez@free.fr
-  token: $TOKEN
+  token: $GITHUB_TOKEN

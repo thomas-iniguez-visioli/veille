@@ -167,7 +167,7 @@ ignore: null
 theme: freemind
 deploy:
   type: git
-  repo: 
+  repo:
     github:
       url: https://github.com/alphaleadership/feed.git
       branch: gh-pages

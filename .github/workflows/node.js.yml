@@ -17,7 +17,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        TOKEN: ${{ secrets.GH_TOKEN }}
     strategy:
       matrix:
         node-version: [ 23.x]

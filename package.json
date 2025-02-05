@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm update &&npm install hexo-generator-search alphaleadership/hexo-deployer-git hexo-abbrlink3 && npm update &&npm run clean &&node index && hexo generate ",
+    "build": "npm update &&npm install hexo-generator-search  hexo-abbrlink3 && npm update &&npm run clean &&node index && hexo generate ",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
@@ -15,7 +15,7 @@
     "hexo": "^7.3.0",
     "hexo-abbrlink3": "^1.0.2",
     "hexo-bridge": "^2.0.4",
-    "hexo-deployer-git": "github:alphaleadership/hexo-deployer-git",
+    
     "hexo-enhancer": "^1.0.10",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",

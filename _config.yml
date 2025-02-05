@@ -167,8 +167,10 @@ ignore: null
 theme: freemind
 deploy:
   type: git
-  repo: https://github.com/alphaleadership/feed.git
-  branch: pages
-  Username: alphaleadership
-  email: thomas.iniguez@free.fr
-  token: $GITHUB_TOKEN
+  repo: 
+    github:
+      url: https://github.com/alphaleadership/feed.git
+      branch: pages
+      name: alphaleadership
+      email: thomas.iniguez@free.fr
+      token: $GITHUB_TOKEN

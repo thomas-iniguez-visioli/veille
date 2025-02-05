@@ -169,7 +169,7 @@ deploy:
   type: git
   repo: 
     github:
-      url: https://github.com/alphaleadership/feed.git
+      url: https://github.com/alphaleadership/feed
       branch: pages
       token: $GITHUB_TOKEN
   name: alphaleadership

@@ -167,7 +167,7 @@ ignore: null
 theme: freemind
 deploy:
   type: git
-  repo: https://github.com/alphaleadership/feed.git
+  repo: "https://github.com/alphaleadership/feed.git"
   branch: pages
   name: alphaleadership
   email: thomas.iniguez@free.fr

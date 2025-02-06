@@ -8,6 +8,12 @@ timezone: ''
 url: https://feed-blush.vercel.app/
 permalink: ':abbrlink/'
 permalink_defaults: null
+category_generator:
+  per_page: 10
+  order_by: -date
+tag_generator:
+  per_page: 10
+  order_by: -date
 pretty_urls:
   trailing_index: true
   trailing_html: true

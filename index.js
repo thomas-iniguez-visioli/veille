@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const Parser = require('rss-parser');
-console.log(process.env)
+//console.log(process.env)
 const parser = new Parser();
 
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml'; // Remplacez par l'URL de votre flux RSS
@@ -16,8 +16,11 @@ parser.parseURL(rssUrl)
       postTitle.split("-")[0].replace("#",'').split(",").map((Dir)=>{
         const yaml = require('js-yaml');
         const configFilePath = './_config.yml';
+        const buildFilePath = './build.yml';
         const configContent = fs.readFileSync(configFilePath, 'utf8');
         const config = yaml.load(configContent);
+        const buildContent = fs.readFileSync(buildFilePath, 'utf8');
+        const build = yaml.load(buildContent);
         if (!config.category_map) {
           config.category_map = [];
         }if(! config.category_map.includes(Dir)){
@@ -30,7 +33,7 @@ parser.parseURL(rssUrl)
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
-      if (!fs.existsSync(postFilePath)) {
+      if (fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#",'').split("-")[0]}
 date: ${postTitle.split('-').slice(-3).join("-")}
@@ -39,13 +42,19 @@ lien: "${item.link}"
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}
 `;
-tags=config.tags
-if(parsecontent(item.contentSnippet,',',"\n")){
-  parsecontent(item.contentSnippet,',',"\n").split("\n").map((t)=>{tags.push(t)})
-}
+tags=config.tags.split(",")
+console.log(parsecontent(item.contentSnippet,',',"\n"))
+/*if(parsecontent(item.contentSnippet,',',"\n").length>2){
+  parsecontent(item.contentSnippet,',',"\n").split("\n").map((t)=>{tags.push(t)
+    console.log(tags)
+    tags=[...new Set(tags)]
+  })
+}*/
 config.tags=[...new Set(tags)].join(",")
+build.tags=config.tags
 const updatedConfigContent = yaml.dump(config);
 fs.writeFileSync(configFilePath, updatedConfigContent);
+fs.writeFileSync(buildFilePath, yaml.dump(build));
         fs.writeFileSync(postFilePath, postContentHexo);
         //console.log(`Post créé : ${postFileName}`);
       } else {

@@ -55,7 +55,7 @@ index_generator:
   per_page: 10
   order_by: '-date'
 default_category: uncategorized
-tags: nom,prénom,adresse email,addresse postale
+tags: nom, prénom
 category_map:
   - AIDES
   - E.Leclerc
@@ -174,4 +174,3 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
-

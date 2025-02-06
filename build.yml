@@ -5,7 +5,7 @@ keywords: null
 author: arbinger
 language: fr
 timezone: ''
-url: https://feed-blush.vercel.app/
+url: https://alphaleadership.github.io/feed/
 permalink: ':abbrlink/'
 permalink_defaults: null
 category_generator:
@@ -174,4 +174,12 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
-
+deploy:
+  type: git
+  repo:
+    github:
+      url: https://github.com/alphaleadership/feed.git
+      branch: gh-pages
+      token: ''
+  name: alphaleadership
+  email: thomas.iniguez@free.fr

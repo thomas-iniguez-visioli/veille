@@ -47,6 +47,7 @@ index_generator:
   per_page: 10
   order_by: '-date'
 default_category: uncategorized
+tags: nom,prenom
 category_map:
   - AIDES
   - E.Leclerc

@@ -5,7 +5,8 @@ keywords: null
 author: arbinger
 language: fr
 timezone: ''
-url: https://alphaleadership.github.io/feed
+url: https://alphaleadership.github.io/feed/
+root: /feed
 permalink: ':abbrlink/'
 permalink_defaults: null
 category_generator:

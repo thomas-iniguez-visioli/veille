@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm update &&npm install hexo-generator-search  hexo-abbrlink3 && npm update &&npm run clean &&node index && hexo generate &&hexo deploy --config build.yml",
+    "build": "npm update &&npm install hexo-generator-search  hexo-abbrlink3 && npm update &&npm run clean &&node index && hexo generate ",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "hexo deploy --config build.yml",
     "server": "hexo server"
   },
   "hexo": {

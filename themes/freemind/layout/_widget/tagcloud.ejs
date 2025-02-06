@@ -6,7 +6,7 @@
 			<li><a href="<%- url_for(item.path) %>"><%= item.name %><span><%= item.posts.length %></span></a></li>
 		<% }); %>
 		<% if (site.tags.length > 20) { %>
-		   <li><a href="/tags">...<span><%= site.tags.length %></span></a></li>
+		   <li><a href="<%- config.root %>/tags">...<span><%= site.tags.length %></span></a></li>
 		<% } %> 
 		</ul>
 	</div>

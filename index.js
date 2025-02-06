@@ -22,8 +22,7 @@ parser.parseURL(rssUrl)
           config.category_map = [];
         }if(! config.category_map.includes(Dir)){
         config.category_map.push(Dir);}
-        const updatedConfigContent = yaml.dump(config);
-        fs.writeFileSync(configFilePath, updatedConfigContent);
+      
         const hexoPostDir= path.join(PostDir,Dir)
         if(!fs.existsSync(hexoPostDir)){
           fs.mkdirSync(hexoPostDir)
@@ -40,7 +39,13 @@ lien: "${item.link}"
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}
 `;
-
+tags=config.tags
+if(parsecontent(item.contentSnippet,',',"\n")){
+  parsecontent(item.contentSnippet,',',"\n").split("\n").map((t)=>{tags.push(t)})
+}
+config.tags=[...new Set(tags)].join(",")
+const updatedConfigContent = yaml.dump(config);
+fs.writeFileSync(configFilePath, updatedConfigContent);
         fs.writeFileSync(postFilePath, postContentHexo);
         //console.log(`Post créé : ${postFileName}`);
       } else {

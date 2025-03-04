@@ -18,3 +18,4 @@ numéro Pôle Emploi
 numéro carte VTC
 diplôme
 niveau d’étude
+donnée sécurisée de manière non sécurisée fuite prévisible 

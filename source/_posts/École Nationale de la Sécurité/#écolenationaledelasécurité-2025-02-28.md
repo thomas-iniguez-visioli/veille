@@ -18,4 +18,5 @@ numéro Pôle Emploi
 numéro carte VTC
 diplôme
 niveau d’étude
-donnée sécurisée de manière non sécurisée fuite prévisible 
+donnée stockée  de manière non sécurisée (.csv) fuite prévisible 
+pas d'information de notification cnil ou anssi 

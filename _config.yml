@@ -1,5 +1,5 @@
 title: veille
-subtitle: 'fuite de donnée en cours'
+subtitle: fuite de donnée en cours
 description: ''
 keywords: null
 author: arbinger
@@ -121,6 +121,8 @@ category_map:
   - École Nationale de la Sécurité
   - Zephir
   - EDF DPIH
+  - La Poste
+  - Côté Sushi
 tag_map:
   - E.Leclerc
   - Fédération Française Montagne Escalade

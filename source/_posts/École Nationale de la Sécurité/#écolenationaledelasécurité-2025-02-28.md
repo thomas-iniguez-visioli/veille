@@ -18,5 +18,3 @@ numéro Pôle Emploi
 numéro carte VTC
 diplôme
 niveau d’étude
-donnée stockée  de manière non sécurisée (.csv) fuite prévisible 
-pas d'information de notification cnil ou anssi 

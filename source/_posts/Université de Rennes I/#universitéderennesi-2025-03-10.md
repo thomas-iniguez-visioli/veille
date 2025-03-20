@@ -1,6 +1,6 @@
 ---
-title: Université de Rennes I
-date: 2025-03-10
+title: #Université de Rennes I-2025-03-10
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#Université de Rennes I-2025-03-10"
 ---
 

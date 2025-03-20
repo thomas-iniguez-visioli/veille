@@ -1,6 +1,6 @@
 ---
-title: Boulanger
-date: 2024-09-07
+title: #Boulanger-2024-09-07
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#Boulanger-2024-09-07"
 ---
 

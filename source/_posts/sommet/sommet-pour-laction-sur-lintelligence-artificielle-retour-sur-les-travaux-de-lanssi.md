@@ -1,6 +1,6 @@
 ---
-title: sommet
-date: travaux-de-lanssi
+title: sommet-pour-laction-sur-lintelligence-artificielle-retour-sur-les-travaux-de-lanssi
+date: undefined-undefined-undefined
 lien: "https://cyber.gouv.fr/actualites/sommet-pour-laction-sur-lintelligence-artificielle-retour-sur-les-travaux-de-lanssi"
 ---
 

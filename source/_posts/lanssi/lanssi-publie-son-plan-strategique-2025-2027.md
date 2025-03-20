@@ -1,6 +1,6 @@
 ---
-title: lanssi
-date: strategique-2025-2027
+title: lanssi-publie-son-plan-strategique-2025-2027
+date: undefined-undefined-undefined
 lien: "https://cyber.gouv.fr/actualites/lanssi-publie-son-plan-strategique-2025-2027"
 ---
 

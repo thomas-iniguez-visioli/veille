@@ -1,6 +1,6 @@
 ---
-title: École Nationale de la Sécurité
-date: 2025-02-28
+title: #École Nationale de la Sécurité-2025-02-28
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#École Nationale de la Sécurité-2025-02-28"
 ---
 

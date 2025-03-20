@@ -1,6 +1,6 @@
 ---
-title: lalgorithme
-date: cryptographie-post-quantique
+title: lalgorithme-haetae-laureat-de-la-competition-coreenne-de-cryptographie-post-quantique
+date: undefined-undefined-undefined
 lien: "https://cyber.gouv.fr/actualites/lalgorithme-haetae-laureat-de-la-competition-coreenne-de-cryptographie-post-quantique"
 ---
 

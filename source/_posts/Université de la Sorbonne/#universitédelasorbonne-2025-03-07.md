@@ -1,6 +1,6 @@
 ---
-title: Université de la Sorbonne
-date: 2025-03-07
+title: #Université de la Sorbonne-2025-03-07
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#Université de la Sorbonne-2025-03-07"
 ---
 

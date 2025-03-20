@@ -1,6 +1,6 @@
 ---
-title: lanssi
-date: pris-version-30
+title: lanssi-met-jour-les-referentiels-passi-version-22-et-pris-version-30
+date: undefined-undefined-undefined
 lien: "https://cyber.gouv.fr/actualites/lanssi-met-jour-les-referentiels-passi-version-22-et-pris-version-30"
 ---
 

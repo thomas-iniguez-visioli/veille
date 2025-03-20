@@ -1,6 +1,6 @@
 ---
-title: Nord Emploi
-date: 2025-02-26
+title: #Nord Emploi-2025-02-26
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#Nord Emploi-2025-02-26"
 ---
 

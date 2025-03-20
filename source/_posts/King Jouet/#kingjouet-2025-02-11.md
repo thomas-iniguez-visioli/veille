@@ -1,6 +1,6 @@
 ---
-title: King Jouet
-date: 2025-02-11
+title: #King Jouet-2025-02-11
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#King Jouet-2025-02-11"
 ---
 

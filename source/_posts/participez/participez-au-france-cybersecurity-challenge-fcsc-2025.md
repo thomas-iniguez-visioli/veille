@@ -1,6 +1,6 @@
 ---
-title: participez
-date: challenge-fcsc-2025
+title: participez-au-france-cybersecurity-challenge-fcsc-2025
+date: undefined-undefined-undefined
 lien: "https://cyber.gouv.fr/actualites/participez-au-france-cybersecurity-challenge-fcsc-2025"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: lanssi
-date: en-open-source
+title: lanssi-partage-son-guichet-de-diodes-eurydice-en-open-source
+date: undefined-undefined-undefined
 lien: "https://cyber.gouv.fr/actualites/lanssi-partage-son-guichet-de-diodes-eurydice-en-open-source"
 ---
 

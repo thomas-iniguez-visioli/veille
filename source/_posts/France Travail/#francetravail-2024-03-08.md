@@ -1,6 +1,6 @@
 ---
-title: France Travail
-date: 2024-03-08
+title: #France Travail-2024-03-08
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#France Travail-2024-03-08"
 ---
 

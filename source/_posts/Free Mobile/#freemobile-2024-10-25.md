@@ -1,6 +1,6 @@
 ---
-title: Free Mobile
-date: 2024-10-25
+title: #Free Mobile-2024-10-25
+date: undefined-undefined-undefined
 lien: "https://bonjourlafuite.eu.org/#Free Mobile-2024-10-25"
 ---
 

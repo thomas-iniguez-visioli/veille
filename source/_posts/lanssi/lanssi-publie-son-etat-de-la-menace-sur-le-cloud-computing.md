@@ -1,6 +1,6 @@
 ---
 title: lanssi-publie-son-etat-de-la-menace-sur-le-cloud-computing
-date: undefined-undefined-undefined
+date: 2025-2-20
 lien: "https://cyber.gouv.fr/actualites/lanssi-publie-son-etat-de-la-menace-sur-le-cloud-computing"
 ---
 

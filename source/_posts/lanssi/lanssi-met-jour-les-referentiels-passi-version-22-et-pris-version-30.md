@@ -1,6 +1,6 @@
 ---
 title: lanssi-met-jour-les-referentiels-passi-version-22-et-pris-version-30
-date: undefined-undefined-undefined
+date: 2024-11-29
 lien: "https://cyber.gouv.fr/actualites/lanssi-met-jour-les-referentiels-passi-version-22-et-pris-version-30"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: #Le Slip Français-2024-04-15
-date: undefined-undefined-undefined
+date: 2024-4-15
 lien: "https://bonjourlafuite.eu.org/#Le Slip Français-2024-04-15"
 ---
 

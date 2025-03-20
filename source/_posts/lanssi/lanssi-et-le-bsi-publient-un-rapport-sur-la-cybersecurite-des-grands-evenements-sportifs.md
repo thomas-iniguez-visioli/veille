@@ -1,6 +1,6 @@
 ---
 title: lanssi-et-le-bsi-publient-un-rapport-sur-la-cybersecurite-des-grands-evenements-sportifs
-date: undefined-undefined-undefined
+date: 2024-12-18
 lien: "https://cyber.gouv.fr/actualites/lanssi-et-le-bsi-publient-un-rapport-sur-la-cybersecurite-des-grands-evenements-sportifs"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: #Sport Découverte-2025-02-17
-date: undefined-undefined-undefined
+date: 2025-2-17
 lien: "https://bonjourlafuite.eu.org/#Sport Découverte-2025-02-17"
 ---
 

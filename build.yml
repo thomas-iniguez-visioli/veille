@@ -182,5 +182,5 @@ deploy:
       url: https://github.com/alphaleadership/feed
       branch: pages
       token: '$GITHUB_TOKEN'
-  name: alphaleadership
+  Username: alphaleadership
   email: thomas.iniguez@free.fr

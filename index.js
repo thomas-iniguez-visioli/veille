@@ -36,7 +36,7 @@ parser.parseURL(rssUrl)
       if (fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle}
-date: ${new Date(item.pubDate).year}-${new Date(item.pubDate).month}-${new Date(item.pubDate).day}
+date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
 ---
 

@@ -2,7 +2,7 @@
 title: AIDES
 date: 2025-1-27
 lien: "https://bonjourlafuite.eu.org/AIDES"
-layout:post
+layout: post
 ---
 
 nom

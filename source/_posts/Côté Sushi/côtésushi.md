@@ -2,7 +2,7 @@
 title: Côté Sushi
 date: 2025-3-4
 lien: "https://bonjourlafuite.eu.org/Côté Sushi"
-layout:post
+layout: post
 ---
 
 nom

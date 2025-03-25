@@ -2,7 +2,7 @@
 title: Deloitte
 date: 2024-12-4
 lien: "https://bonjourlafuite.eu.org/Deloitte"
-layout: post
+published: true
 ---
 
 pas d'information actuellement

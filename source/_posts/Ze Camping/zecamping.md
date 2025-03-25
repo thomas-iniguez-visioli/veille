@@ -2,7 +2,7 @@
 title: Ze Camping
 date: 2024-11-27
 lien: "https://bonjourlafuite.eu.org/Ze Camping"
-layout: post
+published: true
 ---
 
 nom

@@ -2,7 +2,7 @@
 title: Almerys, Viamedis
 date: 2024-2-6
 lien: "https://bonjourlafuite.eu.org/Almerys, Viamedis"
-layout: post
+published: true
 ---
 
 nom

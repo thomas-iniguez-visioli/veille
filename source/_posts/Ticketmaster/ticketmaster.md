@@ -2,7 +2,7 @@
 title: Ticketmaster
 date: 2024-4-28
 lien: "https://bonjourlafuite.eu.org/Ticketmaster"
-layout: post
+published: true
 ---
 
 nom

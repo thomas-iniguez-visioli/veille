@@ -2,7 +2,7 @@
 title: Fédération Française de Roller Skateboard
 date: 2025-1-14
 lien: "https://bonjourlafuite.eu.org/Fédération Française de Roller Skateboard"
-layout: post
+published: true
 ---
 
 nom

@@ -2,7 +2,7 @@
 title: RED by SFR
 date: 2024-9-18
 lien: "https://bonjourlafuite.eu.org/RED by SFR"
-layout: post
+published: true
 ---
 
 nom

@@ -2,7 +2,7 @@
 title: Cogitis
 date: 2024-12-31
 lien: "https://bonjourlafuite.eu.org/Cogitis"
-layout: post
+published: true
 ---
 
 82Go

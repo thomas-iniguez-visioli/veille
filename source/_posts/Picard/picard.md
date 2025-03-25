@@ -2,7 +2,7 @@
 title: Picard
 date: 2024-11-12
 lien: "https://bonjourlafuite.eu.org/Picard"
-layout: post
+published: true
 ---
 
 nom

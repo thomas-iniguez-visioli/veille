@@ -1,0 +1,12 @@
+---
+title: Fuite de données chez La Poste
+date: 2025-3-4
+lien: "https://bonjourlafuite.eu.org/Fuite de données chez La Poste"
+---
+
+nom
+prénom
+email
+adresse postale
+année de naissance
+numéro de téléphone

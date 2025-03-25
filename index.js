@@ -41,7 +41,7 @@ parser.parseURL(rssUrl)
 title: ${postTitle}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
-layout:${l(postTitle)}
+layout: ${l(postTitle)}
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}

@@ -42,7 +42,7 @@ parser.parseURL(rssUrl)
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
-      if (fs.existsSync(postFilePath)) {
+      if (!fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}

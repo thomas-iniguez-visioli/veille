@@ -2,7 +2,7 @@
 title: Cybertek
 date: 2024-9-12
 lien: "https://bonjourlafuite.eu.org/Cybertek"
-layout:post 
+layout:post
 ---
 
 nom

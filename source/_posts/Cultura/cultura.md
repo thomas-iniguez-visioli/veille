@@ -2,7 +2,7 @@
 title: Cultura
 date: 2024-9-10
 lien: "https://bonjourlafuite.eu.org/Cultura"
-layout:post 
+layout:post
 ---
 
 nom

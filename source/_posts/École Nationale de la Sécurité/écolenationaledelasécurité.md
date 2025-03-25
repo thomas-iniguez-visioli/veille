@@ -2,7 +2,7 @@
 title: École Nationale de la Sécurité
 date: 2025-2-28
 lien: "https://bonjourlafuite.eu.org/École Nationale de la Sécurité"
-layout:post 
+layout:post
 ---
 
 civilité

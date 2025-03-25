@@ -2,7 +2,7 @@
 title: Auchan
 date: 2024-11-19
 lien: "https://bonjourlafuite.eu.org/Auchan"
-layout:post 
+layout:post
 ---
 
 nom

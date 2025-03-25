@@ -2,7 +2,7 @@
 title: Le Slip Français
 date: 2024-4-15
 lien: "https://bonjourlafuite.eu.org/Le Slip Français"
-layout:post 
+layout:post
 ---
 
 nom

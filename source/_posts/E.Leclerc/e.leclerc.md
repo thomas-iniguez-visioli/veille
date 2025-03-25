@@ -2,7 +2,7 @@
 title: E.Leclerc
 date: 2025-1-24
 lien: "https://bonjourlafuite.eu.org/E.Leclerc"
-layout:post 
+layout:post
 ---
 
 nom

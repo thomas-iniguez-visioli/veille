@@ -2,7 +2,7 @@
 title: Nord Emploi
 date: 2025-2-26
 lien: "https://bonjourlafuite.eu.org/Nord Emploi"
-layout:post 
+layout:post
 ---
 
 nom

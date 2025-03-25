@@ -2,7 +2,7 @@
 title: Ornikar
 date: 2024-10-24
 lien: "https://bonjourlafuite.eu.org/Ornikar"
-layout:post 
+layout:post
 ---
 
 nom

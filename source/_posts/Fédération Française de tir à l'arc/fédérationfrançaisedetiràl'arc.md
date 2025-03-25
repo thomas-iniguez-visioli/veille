@@ -2,7 +2,7 @@
 title: Fédération Française de tir à l'arc
 date: 2025-1-20
 lien: "https://bonjourlafuite.eu.org/Fédération Française de tir à l'arc"
-layout:post 
+layout:post
 ---
 
 nom

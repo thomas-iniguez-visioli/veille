@@ -2,7 +2,7 @@
 title: Fédération Française de Foot
 date: 2025-2-21
 lien: "https://bonjourlafuite.eu.org/Fédération Française de Foot"
-layout:post 
+layout:post
 ---
 
 nom

@@ -10,7 +10,7 @@ const parsecontent=(txt,sep,joi)=>{
   return txt.split(sep).map(line => line.trim()).join(joi);
 }
 const l=(title)=>{
-  if(title.includes("cve")){return "page" }else{return "post"}
+  if(title.includes("CVE")){return "page" }else{return "post"}
 }
 parser.parseURL(rssUrl)
   .then(feed => {

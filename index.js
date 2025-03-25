@@ -10,7 +10,7 @@ const parsecontent=(txt,sep,joi)=>{
   return txt.split(sep).map(line => line.trim()).join(joi);
 }
 const l=(title)=>{
-  if(title.includes("CVE")){return "page" }else{return "post"}
+  return !title.includes("CVE")
 }
 parser.parseURL(rssUrl)
   .then(feed => {
@@ -41,7 +41,7 @@ parser.parseURL(rssUrl)
 title: ${postTitle}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
-layout: ${l(postTitle)}
+published: ${l(postTitle)}
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}

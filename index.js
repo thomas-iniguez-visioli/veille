@@ -9,6 +9,9 @@ const PostDir = './source/_posts'; // Répertoire où seront créés les posts H
 const parsecontent=(txt,sep,joi)=>{
   return txt.split(sep).map(line => line.trim()).join(joi);
 }
+const l=(title)=>{
+  if(title.includes("cve"){return "page" }else{return "post "}
+}
 parser.parseURL(rssUrl)
   .then(feed => {
     feed.items.forEach(item => {
@@ -38,7 +41,7 @@ parser.parseURL(rssUrl)
 title: ${postTitle}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
-layout:${if(postTitle.includes("cve"){return "page" }else'{return "post "}}
+layout:${l(postTitle)}
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}

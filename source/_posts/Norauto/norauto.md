@@ -2,6 +2,7 @@
 title: Norauto
 date: 2024-12-2
 lien: "https://bonjourlafuite.eu.org/Norauto"
+layout:post 
 ---
 
 nom

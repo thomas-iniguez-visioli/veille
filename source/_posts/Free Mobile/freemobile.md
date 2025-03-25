@@ -2,6 +2,7 @@
 title: Free Mobile
 date: 2024-10-25
 lien: "https://bonjourlafuite.eu.org/Free Mobile"
+layout:post 
 ---
 
 nom

@@ -2,6 +2,7 @@
 title: lanssi-partage-son-guichet-de-diodes-eurydice-en-open-source
 date: 2024-12-20
 lien: "https://cyber.gouv.fr/actualites/lanssi-partage-son-guichet-de-diodes-eurydice-en-open-source"
+layout:post 
 ---
 
 L’ANSSI partage son guichet de diodes Eurydice en open-source

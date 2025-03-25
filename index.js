@@ -13,7 +13,7 @@ const l=(title)=>{
   if( !title.includes("CVE")){
     return"_posts"
   }else{
-    return"_drafts"
+    return""
   }
 }
 parser.parseURL(rssUrl)

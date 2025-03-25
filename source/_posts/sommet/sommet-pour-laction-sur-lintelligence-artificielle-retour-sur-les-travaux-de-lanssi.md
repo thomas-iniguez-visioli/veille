@@ -2,7 +2,7 @@
 title: sommet-pour-laction-sur-lintelligence-artificielle-retour-sur-les-travaux-de-lanssi
 date: 2025-2-17
 lien: "https://cyber.gouv.fr/actualites/sommet-pour-laction-sur-lintelligence-artificielle-retour-sur-les-travaux-de-lanssi"
-published: true
+
 ---
 
 Sommet pour l’action sur l’intelligence artificielle : retour sur les travaux de l’ANSSI

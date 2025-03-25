@@ -2,7 +2,7 @@
 title: EDF DPIH
 date: 2025-2-28
 lien: "https://bonjourlafuite.eu.org/EDF DPIH"
-published: true
+
 ---
 
 plan d’intervention et de maintenance des centrales

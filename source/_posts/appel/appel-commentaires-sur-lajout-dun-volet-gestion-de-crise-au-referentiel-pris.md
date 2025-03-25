@@ -2,7 +2,7 @@
 title: appel-commentaires-sur-lajout-dun-volet-gestion-de-crise-au-referentiel-pris
 date: 2025-3-24
 lien: "https://cyber.gouv.fr/actualites/appel-commentaires-sur-lajout-dun-volet-gestion-de-crise-au-referentiel-pris"
-published: true
+
 ---
 
 Appel à commentaires sur l’ajout d’un volet gestion de crise au référentiel PRIS

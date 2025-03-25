@@ -5,12 +5,16 @@ const Parser = require('rss-parser');
 const parser = new Parser();
 
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml'; // Remplacez par l'URL de votre flux RSS
-const PostDir = './source/_posts'; // Répertoire où seront créés les posts Hexo
+const PostDir = './source/'; // Répertoire où seront créés les posts Hexo
 const parsecontent=(txt,sep,joi)=>{
   return txt.split(sep).map(line => line.trim()).join(joi);
 }
 const l=(title)=>{
-  return !title.includes("CVE")
+  if( !title.includes("CVE")){
+    return"_posts"
+  }else{
+    return"_drafts"
+  }
 }
 parser.parseURL(rssUrl)
   .then(feed => {
@@ -28,8 +32,10 @@ parser.parseURL(rssUrl)
           config.category_map = [];
         }if(! config.category_map.includes(Dir)){
         config.category_map.push(Dir);}
-      
-        const hexoPostDir= path.join(PostDir,Dir)
+         if(!fs.existsSync(path.join(PostDir,l(postTitle)))){
+          fs.mkdirSync(path.join(PostDir,l(postTitle)))
+        }
+        const hexoPostDir= path.join(PostDir,l(postTitle),Dir)
         if(!fs.existsSync(hexoPostDir)){
           fs.mkdirSync(hexoPostDir)
         }
@@ -41,7 +47,7 @@ parser.parseURL(rssUrl)
 title: ${postTitle}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
-published: ${l(postTitle)}
+
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}

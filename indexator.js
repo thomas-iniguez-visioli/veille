@@ -16,6 +16,7 @@ function replaceTermsInFile(file) {
         termsToReplace.forEach(term => {
             console.log(term.search, term.replace)
             result = result.replaceAll(new RegExp(term.search, 'g'), term.replace);
+            result = result.replaceAll(new RegExp("("+term.search+")", 'g'), term.replace);
         });
         const regex = /\[\[\w+\]\]\]/g;
         let match;

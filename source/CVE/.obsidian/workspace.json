@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cve-2025-30742.md",
+                "file": "cve-2025-2326.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cve-2025-30742"
+              "title": "cve-2025-2326"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cve-2025-30742.md",
+                "file": "cve-2025-2326.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cve-2025-30742"
+              "title": "Backlinks for cve-2025-2326"
             }
           },
           {
@@ -169,31 +169,31 @@
   },
   "active": "564a2f448ca4afca",
   "lastOpenFiles": [
-    "cve-2025-31141.md",
-    "cve-2025-30334.md",
-    "cve-2025-31109.md",
-    "cve-2025-29227.md",
+    "cve-2025-30407.md",
+    "cve-2024-9103.md",
+    "cve-2025-31164.md",
+    "cve-2025-2819.md",
+    "cve-2025-30742.md",
+    "cve-2025-2820.md",
+    "cve-2025-2496.md",
+    "cve-2025-31105.md",
+    "cve-2025-31010.md",
     "cve-2025-24920.md",
-    "cve-2025-27551.md",
-    "cve-2025-29214.md",
-    "cve-2025-30909.md",
-    "cve-2025-31110.md",
-    "cve-2024-53349.md",
-    "cve-2025-2574.md",
-    "NA.md",
-    "CRITICAL.md",
-    "Web.md",
-    "cve-2021-25635.md",
-    "cve-2025-2480.md",
-    "cve-2021-26105.md",
-    "cve-2025-0508.md",
-    "cve-2025-1474.md",
-    "cve-2025-0452.md",
-    "cve-2025-25036.md",
-    "cve-2025-27001.md",
-    "cve-2025-29218.md",
-    "cve-2025-25758.md",
-    "cve-2025-27837.md",
-    "cve-2025-31108.md"
+    "cve-2025-20230.md",
+    "cve-2024-13939.md",
+    "cve-2024-12137.md",
+    "cve-2025-31111.md",
+    "cve-2025-29149.md",
+    "cve-2025-31162.md",
+    "cve-2025-30345.md",
+    "cve-2024-53970.md",
+    "cve-2025-31112.md",
+    "cve-2025-1758.md",
+    "cve-2025-2596.md",
+    "cve-2025-29923.md",
+    "cve-2025-31163.md",
+    "cve-2025-30372.md",
+    "cve-2025-30371.md",
+    "cve-2025-30211.md"
   ]
 }

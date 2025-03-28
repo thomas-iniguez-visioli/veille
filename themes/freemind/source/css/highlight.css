@@ -135,7 +135,7 @@ pre .python .decorator,
 pre .python .title,
 pre .ruby .function .title,
 pre .ruby .title .keyword,
-pre .perl .sub,
+pre .[[Perl]] .sub,
 pre .javascript .title,
 pre .coffeescript .title {
   color: #69c!important;

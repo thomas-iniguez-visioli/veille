@@ -35,7 +35,7 @@ via une diode physique
 en garantissant l'intégrité des données.
 
 Pour les utilisateurs
-Eurydice propose une interface web intuitive et ergonomique (fonctionnalités d’upload drag-n-drop
+Eurydice propose une interface [[Web]] intuitive et ergonomique (fonctionnalités d’upload drag-n-drop
 visualisation rapide des fichiers
 etc.) ainsi qu’une API pour scripter les actions
 avec la possibilité d’ajouter des métadonnées supplémentaires aux fichiers transférés. Ce guichet de diodes élaboré par l’ANSSI facilite également la prise en mains des administrateurs en mettant à disposition des fonctionnalités multiples (gestion des comptes utilisateurs

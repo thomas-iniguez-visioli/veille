@@ -55,7 +55,7 @@ Participez au FCSC du 18 au 27 avril 2025 ! Mesurez-vous aux épreuves du CTF de
 Le France Cybersecurity Challenge (FCSC) est un Capture The Flag (CTF) de type jeopardy créé par les équipes de l’ANSSI et lancé en 2019. L’objectif ? Résoudre des épreuves en individuel pour gagner un maximum de points durant les 10 jours de compétition. Crypto
 reverse
 pwn
-web
+[[Web]]
 forensics
 algorithmique
 hardware... plusieurs catégories d’épreuves sont disponibles

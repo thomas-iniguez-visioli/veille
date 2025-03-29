@@ -11,14 +11,10 @@
             "id": "564a2f448ca4afca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cve-2025-2326.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cve-2025-2326"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cve-2025-2326.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cve-2025-2326"
+              "title": "Backlinks"
             }
           },
           {
@@ -169,7 +164,12 @@
   },
   "active": "564a2f448ca4afca",
   "lastOpenFiles": [
+    "cve-2025-1758.md",
     "cve-2025-30407.md",
+    "cve-2025-2326.md",
+    "cve-2025-2324.md",
+    "cve-2025-31010.md",
+    "cve-2025-31108.md",
     "cve-2024-9103.md",
     "cve-2025-31164.md",
     "cve-2025-2819.md",
@@ -177,7 +177,6 @@
     "cve-2025-2820.md",
     "cve-2025-2496.md",
     "cve-2025-31105.md",
-    "cve-2025-31010.md",
     "cve-2025-24920.md",
     "cve-2025-20230.md",
     "cve-2024-13939.md",
@@ -188,12 +187,8 @@
     "cve-2025-30345.md",
     "cve-2024-53970.md",
     "cve-2025-31112.md",
-    "cve-2025-1758.md",
     "cve-2025-2596.md",
     "cve-2025-29923.md",
-    "cve-2025-31163.md",
-    "cve-2025-30372.md",
-    "cve-2025-30371.md",
-    "cve-2025-30211.md"
+    "cve-2025-31163.md"
   ]
 }

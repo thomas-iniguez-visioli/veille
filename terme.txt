@@ -99,4 +99,9 @@ fail
 compromise
 file
 overflow
-Acronis
+Acronis[[overflow]]]
+[[overflow]]]
+Cross-Site Request Forgery
+Privilege
+hijacking
+Buffer

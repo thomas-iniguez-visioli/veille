@@ -1,4 +1,5 @@
 plugin 
+httpd.c
 Nintendo
 LibreOffice
 fortinet
@@ -98,10 +99,15 @@ fail
 (CSRF)
 compromise
 file
+Pixelfed
 overflow
-Acronis[[overflow]]]
+Acronis
+kernel
+Bruteforce
 [[overflow]]]
 Cross-Site Request Forgery
 Privilege
 hijacking
 Buffer
+LLM
+LLMs

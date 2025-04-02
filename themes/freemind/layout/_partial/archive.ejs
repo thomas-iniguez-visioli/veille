@@ -72,13 +72,13 @@
 		<% } %>
 		<% if (month != last_month){ %>
 			<% if (!is_first_month) { %>
-			</ul>
+			</ol>
 			</div>
 			<% } %>
 			<% is_first_month = 0 %>
 			<h5 data-toggle="collapse" data-target="#<%= month %>"><%= mois[month] %><b class="caret"></b></h5>
 			<div id="<%= month %>">
-				<ul class="collapse in">
+				<ol class="collapse in">
 			<% last_month = month; %>
 		<% } %>
 		<li class="listing-item">

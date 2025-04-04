@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8d74191684be6bf6",
+        "id": "74edcb3926a90adc",
         "type": "tabs",
         "children": [
           {
-            "id": "564a2f448ca4afca",
+            "id": "2fa24dc284047636",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cve-2024-58130.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cve-2024-58130"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cve-2024-58130.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cve-2024-58130"
+              "title": "Backlinks"
             }
           },
           {
@@ -167,33 +162,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "564a2f448ca4afca",
+  "active": "2fa24dc284047636",
   "lastOpenFiles": [
-    "cve-2025-31374.md",
-    "cve-2025-31373.md",
-    "cve-2025-31372.md",
-    "cve-2025-31371.md",
-    "cve-2025-31370.md",
-    "cve-2025-31369.md",
-    "cve-2025-31368.md",
-    "cve-2025-31367.md",
-    "cve-2024-23338.md",
-    "cve-2024-55895.md",
-    "cve-2025-26486.md",
-    "cve-2024-44199.md",
-    "cve-2025-30334.md",
-    "cve-2025-30741.md",
-    "cve-2024-11180.md",
-    "cve-2025-29783.md",
-    "cve-2025-30742.md",
-    "cve-2025-2927.md",
-    "cve-2025-2840.md",
-    "cve-2025-28256.md",
-    "cve-2025-28254.md",
     "cve-2025-28097.md",
-    "cve-2025-28096.md",
-    "cve-2025-28094.md",
-    "cve-2025-28093.md",
-    "cve-2025-28092.md"
+    "cve-2025-3242.md",
+    "cve-2025-3241.md",
+    "cve-2025-3240.md",
+    "cve-2025-3239.md",
+    "cve-2025-3238.md",
+    "cve-2025-3237.md",
+    "cve-2025-3236.md",
+    "cve-2025-3235.md",
+    "cve-2025-3231.md",
+    "cve-2025-3229.md",
+    "cve-2025-3220.md",
+    "cve-2025-3219.md",
+    "cve-2025-3217.md",
+    "cve-2025-3216.md",
+    "cve-2025-3215.md",
+    "cve-2025-3214.md",
+    "cve-2025-3213.md",
+    "cve-2025-32111.md",
+    "cve-2025-3211.md",
+    "cve-2025-3210.md",
+    "cve-2025-3209.md",
+    "cve-2025-3208.md",
+    "cve-2025-3207.md",
+    "cve-2025-3206.md",
+    "cve-2025-32054.md"
   ]
 }

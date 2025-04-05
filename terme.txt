@@ -110,12 +110,10 @@ Privilege
 hijacking
 Buffer
 LLM
-<<<<<<< HEAD
-LLMs[[kernel]]]
-[[kernel]]]
-=======
-LLMs[[overflow]]]
-[[overflow]]]
->>>>>>> 9d43c9f (temp)
-[[kernel]]]
-[[overflow]]]
+LLMs
+kernel
+overflow
+permission
+Missing
+missing
+websocket

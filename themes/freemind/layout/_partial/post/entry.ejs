@@ -6,9 +6,9 @@
   <div class="row">
 	<% if (item.feature ) { %>
            <% if (config.post_asset_folder){ %>
-              <div class="thumbnail"><a href="<%- config.url %><%- config.root %><%= url_for(item.path) %>"><img src="<%= item.path %><%= item.feature %>" alt="<%= item.title %>"  class="nofancybox"></a>
+              <div class="thumbnail"><a href="<%= url_for(item.path) %>"><img src="<%= item.path %><%= item.feature %>" alt="<%= item.title %>"  class="nofancybox"></a>
            <% } else { %>
-              <div class="thumbnail"><a href="<%- config.url %><%- config.root %><%= url_for(item.path) %>"><img src="<%= item.feature %>" alt="<%= item.title %>"  class="nofancybox"></a>
+              <div class="thumbnail"><a href="<%= url_for(item.path) %>"><img src="<%= item.feature %>" alt="<%= item.title %>"  class="nofancybox"></a>
            <% } %>
 		</div>
 	<% } %>

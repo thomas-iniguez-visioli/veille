@@ -4,7 +4,7 @@ const Parser = require('rss-parser');
 //console.log(process.env)
 const parser = new Parser();
 const  { inject } =require( "@vercel/analytics")
-console.log(inject)
+console.log(inject())
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml'; // Remplacez par l'URL de votre flux RSS
 const PostDir = './source/'; // Répertoire où seront créés les posts Hexo
 const parsecontent=(txt,sep,joi)=>{

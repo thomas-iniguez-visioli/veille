@@ -11,14 +11,10 @@
             "id": "edee7ebdfb071169",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cve-2025-31163.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cve-2025-31163"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cve-2025-31163.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cve-2025-31163"
+              "title": "Backlinks"
             }
           },
           {
@@ -142,16 +137,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WordPress.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WordPress"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "0703eaf147c97e6c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,36 +169,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "edee7ebdfb071169",
+  "active": "0703eaf147c97e6c",
   "lastOpenFiles": [
-    "cve-2018-25109.md",
-    "cve-2025-0189.md",
-    "cve-2025-30926.md",
-    "cve-2025-31720.md",
-    "]]Control.md",
-    "cve-2025-3035.md",
-    "cve-2025-2891.md",
-    "cve-2025-2874.md",
-    "cve-2025-2842.md",
-    "cve-2025-2836.md",
-    "cve-2025-28132.md",
-    "cve-2025-28131.md",
-    "cve-2025-2797.md",
-    "cve-2025-2786.md",
-    "cve-2025-2784.md",
-    "cve-2025-27829.md",
-    "cve-2025-2780.md",
-    "cve-2025-2779.md",
-    "cve-2025-27694.md",
-    "cve-2025-27693.md",
-    "cve-2025-27692.md",
-    "cve-2025-27608.md",
-    "cve-2025-27556.md",
-    "cve-2025-2198.md",
-    "cve-2025-28097.md",
-    "cve-2025-3242.md"
+    "cve-2025-31324.md",
+    "cve-2025-3101.md",
+    "cve-2025-3065.md",
+    "cve-2025-3058.md",
+    "cve-2025-29529.md",
+    "cve-2025-28169.md",
+    "cve-2025-2773.md",
+    "cve-2025-2772.md",
+    "cve-2025-2771.md",
+    "cve-2025-2770.md",
+    "cve-2025-2769.md",
+    "cve-2025-2768.md",
+    "cve-2025-2767.md",
+    "cve-2025-2765.md",
+    "cve-2025-27581.md",
+    "cve-2025-27580.md",
+    "cve-2025-26382.md",
+    "cve-2025-2579.md",
+    "cve-2025-25777.md",
+    "cve-2025-2558.md",
+    "cve-2025-2543.md",
+    "cve-2025-25046.md",
+    "cve-2025-25045.md",
+    "cve-2025-2185.md",
+    "cve-2025-21605.md",
+    "cve-2025-1976.md"
   ]
 }

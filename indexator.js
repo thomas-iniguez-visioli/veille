@@ -9,7 +9,7 @@ function replaceTermsInFile(file) {
         if (err) {
             return console.log(err);
         }
-        if (data.toLowerCase().includes("rejected")) {
+        if (data.toLowerCase().includes("description : rejected")) {
             fs.unlinkSync(file);
             return;
         }

@@ -11,10 +11,14 @@
             "id": "edee7ebdfb071169",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "cve-2025-21443.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cve-2025-21443"
             }
           }
         ]
@@ -174,33 +178,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0703eaf147c97e6c",
+  "active": "edee7ebdfb071169",
   "lastOpenFiles": [
-    "cve-2025-46690.md",
-    "cve-2025-46689.md",
-    "cve-2025-46688.md",
-    "cve-2025-46687.md",
-    "cve-2025-46675.md",
-    "cve-2025-46674.md",
-    "cve-2025-46673.md",
-    "cve-2025-46672.md",
-    "cve-2025-46661.md",
-    "cve-2025-46656.md",
-    "cve-2025-46655.md",
-    "cve-2025-46654.md",
-    "cve-2025-46653.md",
-    "cve-2025-46652.md",
-    "cve-2025-46646.md",
-    "cve-2025-46614.md",
-    "cve-2025-46580.md",
-    "cve-2025-46579.md",
-    "cve-2025-46578.md",
-    "cve-2025-46577.md",
-    "cve-2025-46576.md",
-    "cve-2025-46575.md",
-    "cve-2025-4059.md",
-    "cve-2025-4058.md",
-    "cve-2025-4039.md",
-    "cve-2025-4038.md"
+    "cve-2025-46342.md",
+    "cve-2025-4122.md",
+    "cve-2025-32974.md",
+    "cve-2025-32973.md",
+    "cve-2025-32972.md",
+    "cve-2025-32971.md",
+    "cve-2025-32970.md",
+    "cve-2025-32376.md",
+    "cve-2025-27409.md",
+    "cve-2025-27134.md",
+    "cve-2025-21443.md",
+    "cve-2025-45021.md",
+    "cve-2025-45020.md",
+    "cve-2025-45019.md",
+    "cve-2025-45018.md",
+    "cve-2025-45017.md",
+    "cve-2025-45015.md",
+    "cve-2025-45011.md",
+    "cve-2025-45010.md",
+    "cve-2025-45009.md",
+    "cve-2025-45007.md",
+    "cve-2025-4121.md",
+    "cve-2025-4120.md",
+    "cve-2025-4119.md",
+    "cve-2025-4118.md",
+    "cve-2025-4117.md"
   ]
 }

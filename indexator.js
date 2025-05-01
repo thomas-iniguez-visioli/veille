@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(__dirname, './source/CVE');
-const termsToReplace = fs.readFileSync('terme.txt', 'utf8').split('\n').map(term => ({ search: ` ${term}`, replace: ` [[${term}]]` }));
+const termsToReplace = fs.readFileSync('terme.txt', 'utf8').split('\n').map(term => ({ search: `${term}`, replace: ` [[${term}]]` }));
 
 function replaceTermsInFile(file) {
     fs.readFile(file, 'utf8', function (err, data) {

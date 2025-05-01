@@ -17,7 +17,7 @@ function replaceTermsInFile(file) {
             fs.unlinkSync(file);
             return;
         }
-        let result = data.replaceAll("[[]]","");
+        let result = data.replaceAll("[[]]","").replaceAll("[ [ ] ]","")
         
         termsToReplace.forEach(term => {
             result = result.replaceAll(new RegExp(term.search, 'g'), term.replace);

@@ -83,7 +83,7 @@ function walkDir(dir) {
         if (stats.isDirectory()) {
             walkDir(itemPath);
         } else if (stats.isFile() && path.extname(item) === '.md') {
-            replaceTermsInFile(itemPath);
+            //replaceTermsInFile(itemPath);
         }
     }
 }

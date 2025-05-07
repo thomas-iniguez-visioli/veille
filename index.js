@@ -10,7 +10,7 @@ const parsecontent=(txt,sep,joi)=>{
   return txt.split(sep).map(line => line.trim()).join(joi);
 }
 const l=(title)=>{
-  if( !title.includes("CVE")){
+  if( title.includes("bonjourlafuite")){
     return"_posts"
   }else{
     return""
@@ -32,10 +32,10 @@ parser.parseURL(rssUrl)
           config.category_map = [];
         }if(! config.category_map.includes(Dir)){
         config.category_map.push(Dir);}
-         if(!fs.existsSync(path.join(PostDir,l(postTitle)))){
-          fs.mkdirSync(path.join(PostDir,l(postTitle)))
+         if(!fs.existsSync(path.join(PostDir,l(item.link)))){
+          fs.mkdirSync(path.join(PostDir,l(item.link)))
         }
-        const hexoPostDir= path.join(PostDir,l(postTitle),Dir)
+        const hexoPostDir= path.join(PostDir,l(item.link),Dir)
         if(!fs.existsSync(hexoPostDir)){
           fs.mkdirSync(hexoPostDir)
         }

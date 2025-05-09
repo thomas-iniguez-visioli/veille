@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd6083df49db0a8",
+        "id": "5f110cf970eea6af",
         "type": "tabs",
         "children": [
           {
-            "id": "851392eee825d6ba",
+            "id": "9b90ee673a3b6855",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "cve-2021-47664.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cve-2021-47664"
             }
           }
         ]
@@ -173,33 +177,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "568fd976de93a249",
+  "active": "9b90ee673a3b6855",
   "lastOpenFiles": [
-    "cve-2025-4208.md",
-    "cve-2025-41450.md",
-    "cve-2025-40846.md",
-    "cve-2025-3862.md",
-    "cve-2025-3759.md",
-    "cve-2025-3758.md",
-    "cve-2025-3506.md",
-    "cve-2025-3468.md",
-    "cve-2025-2806.md",
-    "cve-2025-1254.md",
-    "cve-2025-1253.md",
-    "cve-2025-1252.md",
-    "cve-2024-6648.md",
-    "cve-2025-47423.md",
-    "cve-2025-47203.md",
-    "cve-2025-46828.md",
-    "cve-2025-46826.md",
-    "cve-2025-46824.md",
-    "cve-2025-46821.md",
-    "cve-2025-46727.md",
-    "cve-2025-46265.md",
-    "cve-2025-45514.md",
-    "cve-2025-45388.md",
-    "cve-2025-43878.md",
-    "cve-2025-41433.md",
-    "cve-2025-41431.md"
+    "cve-2025-45885.md",
+    "cve-2024-12442.md",
+    "cve-2024-11861.md",
+    "cve-2025-31516.md",
+    "cve-2021-4455.md",
+    "cve-2025-4475.md",
+    "cve-2025-4472.md",
+    "cve-2025-4471.md",
+    "cve-2025-4470.md",
+    "cve-2025-4469.md",
+    "cve-2025-4468.md",
+    "cve-2025-4467.md",
+    "cve-2025-4466.md",
+    "cve-2025-4465.md",
+    "cve-2025-4464.md",
+    "cve-2025-4463.md",
+    "cve-2025-4462.md",
+    "cve-2025-4461.md",
+    "cve-2025-4460.md",
+    "cve-2025-4459.md",
+    "cve-2025-4458.md",
+    "cve-2025-4457.md",
+    "cve-2025-4456.md",
+    "cve-2025-4455.md",
+    "cve-2025-4454.md",
+    "cve-2025-4453.md"
   ]
 }

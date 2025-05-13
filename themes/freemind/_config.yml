@@ -1,9 +1,8 @@
-slogan: "les loi du listenbourg "
-
+slogan: "liste des fuites trouvées"
 theme: cerulean
 inverse: false
 # whether to show h2 and h3 titles in excerpts
-show_title_in_excerpt: false
+show_title_in_excerpt: true
 feed:
   enable: true
   type: atom
@@ -17,6 +16,12 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+# abbrlink config
+abbrlink:
+  alg: crc16      #support crc16(default) and crc32
+  rep: dec        #support dec(default) and hex
+  allow: ['post','school','cpp',"java","blog"] #Allowed template types. The default is (" post ")
+  disallow: [] #Unallowed template type. Default is an empty list
 menu:
   - title: Archives
     url: archives
@@ -25,12 +30,12 @@ menu:
  
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
+  - title: code
+    url: https://github.com/alphaleadership/feed/
+    intro: "le code ."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: https://github.com/alphaleadership/
     intro: "My Github account."
     icon: "fa fa-github"
 
@@ -63,7 +68,7 @@ baidu_tongji:
   siteid:
 
 # search
-# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+#swiftype_key: ZP2ZSuHgipSZfRyU8uTR
 
 # share widgets
 bdshare: false

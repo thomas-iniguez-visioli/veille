@@ -1,0 +1,186 @@
+title: veille
+subtitle: ''
+description: ''
+keywords: null
+author: arbinger
+language: fr
+timezone: ''
+url: https://alphaleadership.github.io/feed/
+root: /feed/
+permalink: ':abbrlink/'
+permalink_defaults: null
+category_generator:
+  per_page: 10
+  order_by: '-date'
+  enable_index_page: true
+tag_generator:
+  per_page: 1000
+  order_by: '-date'
+  enable_index_page: true
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: category
+code_dir: downloads/code
+i18n_dir: ':lang'
+skip_render: null
+new_post_name: ':title.md'
+default_layout: post
+titlecase: true
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: true
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: '-date'
+default_category: uncategorized
+tags: nom, prénom,adresse email,addresse postale
+category_map:
+  - AIDES
+  - E.Leclerc
+  - Fédération Française Montagne Escalade
+  - Fédération Française de tir à l'arc
+  - Kiabi
+  - Fédération Française de Roller Skateboard
+  - Fédération Française de Force
+  - Cogitis
+  - Atos
+  - Arsoé
+  - Volkswagen
+  - Peugeot
+  - Cyberhaven
+  - Wakanim
+  - Sport 2000
+  - Go Sport
+  - Electro Dépôt
+  - Top Achat
+  - LDLC
+  - Deloitte
+  - Guy Demarle
+  - Norauto
+  - Ze Camping
+  - JVS
+  - SFR
+  - Banque de France
+  - Companie de Transport Strasbourgeoise
+  - Chambres d’agriculture
+  - Auchan
+  - Mediboard
+  - Direct Assurance
+  - Le Point
+  - Huttopia
+  - Molotov
+  - Picard
+  - Free Mobile
+  - Free
+  - Ornikar
+  - Meilleurtaux
+  - RED by SFR
+  - Assurance retraite
+  - Cybertek
+  - Cultura
+  - Boulanger
+  - Ticketmaster
+  - Le Slip Français
+  - France Travail
+  - Almerys
+  - ' Viamedis'
+  - Dailymotion
+  - Conforama
+  - EDF
+tag_map:
+  - E.Leclerc
+  - Fédération Française Montagne Escalade
+  - Fédération Française de tir à l'arc
+  - Kiabi
+  - Fédération Française de Roller Skateboard
+  - Fédération Française de Force
+  - Cogitis
+  - Atos
+  - Arsoé
+  - Volkswagen
+  - Peugeot
+  - Cyberhaven
+  - Wakanim
+  - Sport 2000
+  - Go Sport
+  - Electro Dépôt
+  - Top Achat
+  - LDLC
+  - Deloitte
+  - Guy Demarle
+  - Norauto
+  - Ze Camping
+  - JVS
+  - SFR
+  - Banque de France
+  - Companie de Transport Strasbourgeoise
+  - Chambres d’agriculture
+  - Auchan
+  - Mediboard
+  - Direct Assurance
+  - Le Point
+  - Huttopia
+  - Molotov
+  - Picard
+  - Free Mobile
+  - Free
+  - Ornikar
+  - Meilleurtaux
+  - RED by SFR
+  - Assurance retraite
+  - Cybertek
+  - Cultura
+  - Boulanger
+  - Ticketmaster
+  - Le Slip Français
+  - France Travail
+  - LDLC
+  - Almerys
+  - ' Viamedis'
+  - Dailymotion
+meta_generator: true
+search:
+  path: search.xml
+  field: post
+  content: true
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: mtime
+per_page: 10
+pagination_dir: page
+include: null
+exclude: null
+ignore: null
+theme: freemind
+deploy:
+  type: git
+  repo:
+    github:
+      url: https://github.com/alphaleadership/feed
+      branch: pages
+      token: $GITHUB_TOKEN
+  Username: alphaleadership
+  email: thomas.iniguez@free.fr

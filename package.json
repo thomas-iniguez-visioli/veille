@@ -3,21 +3,27 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run clean &&node index && hexo generate",
+    "build": "npm update &&npm install hexo-generator-search @vercel/analytics @vercel/speed-insights hexo-abbrlink3 && npm update &&npm run clean &&node index  && node indexator&& npm run clean && hexo generate && cp -r source/.well-known/ public/.well-known/ ",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "hexo deploy --config build.yml",
     "server": "hexo server"
   },
   "hexo": {
     "version": "7.3.0"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "hexo": "^7.3.0",
+    "hexo-abbrlink3": "^1.0.2",
+    "hexo-bridge": "^2.0.4",
+    "hexo-deployer-git": "^4.0.0",
     "hexo-enhancer": "^1.0.10",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-feed": "github:thomas-iniguez-visioli/hexo-generator-feed",
     "hexo-generator-index": "^4.0.0",
+    "hexo-generator-search": "^2.4.3",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^7.0.0",

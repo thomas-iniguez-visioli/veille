@@ -1,5 +1,12 @@
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse <% } %>">
   <h1 class="title <% if (theme.inverse){ %>title-inverse <% } %>"><% if (config.subtitle){ %><%= config.subtitle %><% } else { %><%= config.title %><% } %></h1>
 </div>
-
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
 <%- partial('_partial/index', {index: true}) %>

@@ -1,7 +1,8 @@
 ---
-title: Guy Demarle
-date: 2024-12-03
+title: Guy Demarle-2024-12-03
+date: 2024-12-3
 lien: "https://bonjourlafuite.eu.org/#Guy Demarle-2024-12-03"
+
 ---
 
 nom

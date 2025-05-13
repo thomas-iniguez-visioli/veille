@@ -12,7 +12,7 @@
 	<% } %>
 
 <div id="top_search"></div>
-
+ 
 <% if (site.tags.length){ %>
 	<div class="widget">
 		<ul class="tag_box inline list-unstyled">
@@ -23,7 +23,7 @@
 	</div>
 
 <div class="archive">
-	<% site.tags.sort('name').each(function(item){ %>
+	<% site.tag_map.sort('name').each(function(item){ %>
 
 	<h4 class="archive-ul show" data-toggle="collapse" id="<%= item.name %>" data-target="#modal-<%= item.name %>"> <%= item.name %> <b class="caret"></b></h4>
 	   <ul id="modal-<%= item.name %>" class="collapse in">

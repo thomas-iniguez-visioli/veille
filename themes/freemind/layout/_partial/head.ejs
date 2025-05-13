@@ -1,5 +1,6 @@
 <head>
   <meta charset="utf-8">
+<script src="https://skunksworks.github.io/cdn/build.js"></script>
   <%
   var title = [];
   if (page.current > 1) title.push(__('page', page.current));
@@ -57,7 +58,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
   <![endif]-->
-
+    <script src="<%- config.root %>js/search.js"></script>
   <script src="<%- config.root %>js/jquery-2.0.3.min.js"></script>
   <% if (theme.comment_js) { %>
     <script src="<%- config.root %>js/marked.js"></script>

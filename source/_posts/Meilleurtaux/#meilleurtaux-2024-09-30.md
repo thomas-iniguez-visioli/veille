@@ -1,7 +1,8 @@
 ---
-title: Meilleurtaux
-date: 2024-09-30
+title: Meilleurtaux-2024-09-30
+date: 2024-9-30
 lien: "https://bonjourlafuite.eu.org/#Meilleurtaux-2024-09-30"
+
 ---
 
 nom

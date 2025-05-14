@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5f110cf970eea6af",
+        "id": "9ea635ad238a30e2",
         "type": "tabs",
         "children": [
           {
-            "id": "9b90ee673a3b6855",
+            "id": "bdb09a5bc0946dc3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cve-2021-47664.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cve-2021-47664"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -164,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +174,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "568fd976de93a249",
+  "active": "bdb09a5bc0946dc3",
   "lastOpenFiles": [
+    "cve-2025-32409.md",
+    "cve-2025-47683.md",
+    "cve-2025-29991.md",
+    "cve-2025-37885.md",
+    "2025.md",
+    "[[[[attacker.md",
+    "cve-2021-47664.md",
     "cve-2025-47770.md",
     "cve-2025-47769.md",
     "cve-2025-47768.md",
@@ -197,13 +201,6 @@
     "cve-2025-46189.md",
     "cve-2025-46188.md",
     "cve-2025-45513.md",
-    "cve-2025-4506.md",
-    "cve-2025-4505.md",
-    "cve-2025-4504.md",
-    "cve-2025-4503.md",
-    "cve-2025-4502.md",
-    "cve-2025-4501.md",
-    "cve-2025-4500.md",
-    "cve-2025-4499.md"
+    "cve-2025-4506.md"
   ]
 }

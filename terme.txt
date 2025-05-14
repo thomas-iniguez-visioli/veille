@@ -104,7 +104,7 @@ overflow
 Acronis
 kernel
 Bruteforce
-[[overflow]]]
+[[overflow]]
 Cross-Site Request Forgery
 Privilege
 hijacking

@@ -40,6 +40,10 @@ jobs:
     - run: npm run build --if-present
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+        GIT_USER: ${{ github.actor }}
+        GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
+        TOKEN: ${{ secrets.TOKEN }}
     - run: node indexator
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

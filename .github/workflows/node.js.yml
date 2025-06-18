@@ -1,5 +1,5 @@
 # Cette workflow réalisera une installation propre des dépendances node, les mettra en cache/restaurera, compilera le code source et exécutera des tests sur différentes versions de node
-# Pour plus d'informations, voir : https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+# Pour plus d'informations, voir : https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs 
 
 name: Node.js CI
 

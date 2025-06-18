@@ -42,6 +42,16 @@ parser.parseURL(rssUrl)
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
+        config.category_map.map((item)=>{
+          const catpat=`./category/${item}/index.md`
+          if(!fs.existsSync(path.dirname(catpat))){
+            fs.mkdirSync(path.dirname(catpat),{recursive:true})
+          }
+          if(!fs.existsSync(catpat)){
+            fs.writeFileSync(catpat,`---\ntitle: ${item}\nlayout: category\n---
+              `)
+          }
+        })
       if (!fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#","")}
@@ -60,6 +70,7 @@ tags=config.tags.split(",")
     tags=[...new Set(tags)]
   })
 }*/
+
 config.tags=[...new Set(tags)].join(",")
 build.tags=config.tags
 const updatedConfigContent = yaml.dump(config);

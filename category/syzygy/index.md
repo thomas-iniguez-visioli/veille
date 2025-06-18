@@ -1,0 +1,5 @@
+---
+title: syzygy
+layout: category
+---
+              

@@ -1,5 +1,0 @@
----
-title: Boulanger
-layout: category
----
-              

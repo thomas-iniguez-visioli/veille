@@ -1,5 +1,0 @@
----
-title: Atos
-layout: category
----
-              

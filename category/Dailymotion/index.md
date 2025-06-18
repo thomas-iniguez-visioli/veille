@@ -1,5 +1,0 @@
----
-title: Dailymotion
-layout: category
----
-              

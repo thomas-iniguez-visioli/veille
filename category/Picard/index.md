@@ -1,5 +1,0 @@
----
-title: Picard
-layout: category
----
-              

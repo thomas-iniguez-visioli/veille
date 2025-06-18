@@ -1,5 +1,0 @@
----
-title: EDF
-layout: category
----
-              

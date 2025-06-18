@@ -1,5 +1,0 @@
----
-title: Ornikar
-layout: category
----
-              

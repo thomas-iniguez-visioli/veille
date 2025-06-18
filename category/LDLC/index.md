@@ -1,5 +1,0 @@
----
-title: LDLC
-layout: category
----
-              

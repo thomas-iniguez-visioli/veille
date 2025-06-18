@@ -1,5 +1,0 @@
----
-title: Mediboard
-layout: category
----
-              

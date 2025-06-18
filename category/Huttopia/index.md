@@ -1,5 +1,0 @@
----
-title: Huttopia
-layout: category
----
-              

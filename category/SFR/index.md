@@ -1,5 +1,0 @@
----
-title: SFR
-layout: category
----
-              

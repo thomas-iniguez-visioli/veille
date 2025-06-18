@@ -1,5 +1,0 @@
----
-title: Ticketmaster
-layout: category
----
-              

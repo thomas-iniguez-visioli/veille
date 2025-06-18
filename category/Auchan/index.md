@@ -1,5 +1,0 @@
----
-title: Auchan
-layout: category
----
-              

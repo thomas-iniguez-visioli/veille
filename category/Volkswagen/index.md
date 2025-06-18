@@ -1,5 +1,0 @@
----
-title: Volkswagen
-layout: category
----
-              

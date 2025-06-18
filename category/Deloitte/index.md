@@ -1,5 +1,0 @@
----
-title: Deloitte
-layout: category
----
-              

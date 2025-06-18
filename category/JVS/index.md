@@ -1,5 +1,0 @@
----
-title: JVS
-layout: category
----
-              

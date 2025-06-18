@@ -1,5 +1,0 @@
----
-title: Kaviari
-layout: category
----
-              

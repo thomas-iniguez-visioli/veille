@@ -1,5 +1,0 @@
----
-title: CVE
-layout: category
----
-              

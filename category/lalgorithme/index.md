@@ -1,5 +1,0 @@
----
-title: lalgorithme
-layout: category
----
-              

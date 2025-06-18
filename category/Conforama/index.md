@@ -1,5 +1,0 @@
----
-title: Conforama
-layout: category
----
-              

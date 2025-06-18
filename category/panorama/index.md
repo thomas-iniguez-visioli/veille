@@ -1,5 +1,0 @@
----
-title: panorama
-layout: category
----
-              

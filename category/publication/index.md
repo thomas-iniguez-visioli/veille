@@ -1,5 +1,0 @@
----
-title: publication
-layout: category
----
-              

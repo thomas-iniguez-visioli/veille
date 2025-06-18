@@ -1,5 +1,0 @@
----
-title: strategie
-layout: category
----
-              

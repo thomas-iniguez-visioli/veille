@@ -1,5 +1,0 @@
----
-title: cp
-layout: category
----
-              

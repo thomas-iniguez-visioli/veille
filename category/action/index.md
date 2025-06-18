@@ -1,5 +1,0 @@
----
-title: action
-layout: category
----
-              

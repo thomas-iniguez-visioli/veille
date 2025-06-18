@@ -1,5 +1,0 @@
----
-title: csirt
-layout: category
----
-              

@@ -1,5 +1,0 @@
----
-title: Indigo
-layout: category
----
-              

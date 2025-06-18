@@ -1,5 +1,0 @@
----
-title: Cybertek
-layout: category
----
-              

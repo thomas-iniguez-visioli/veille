@@ -1,5 +1,0 @@
----
-title:  Viamedis
-layout: category
----
-              

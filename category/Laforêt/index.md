@@ -1,5 +1,0 @@
----
-title: Laforêt
-layout: category
----
-              

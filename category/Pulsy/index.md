@@ -1,5 +1,0 @@
----
-title: Pulsy
-layout: category
----
-              

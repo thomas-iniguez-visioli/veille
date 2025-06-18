@@ -1,5 +1,0 @@
----
-title: Peugeot
-layout: category
----
-              

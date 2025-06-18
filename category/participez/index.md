@@ -1,5 +1,0 @@
----
-title: participez
-layout: category
----
-              

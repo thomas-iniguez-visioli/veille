@@ -1,5 +1,0 @@
----
-title: cybermois
-layout: category
----
-              

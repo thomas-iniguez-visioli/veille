@@ -1,5 +1,0 @@
----
-title: ecti
-layout: category
----
-              

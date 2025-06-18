@@ -1,5 +1,0 @@
----
-title: Cogitis
-layout: category
----
-              

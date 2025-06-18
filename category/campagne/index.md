@@ -1,5 +1,0 @@
----
-title: campagne
-layout: category
----
-              

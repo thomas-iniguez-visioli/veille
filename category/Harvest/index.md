@@ -1,5 +1,0 @@
----
-title: Harvest
-layout: category
----
-              

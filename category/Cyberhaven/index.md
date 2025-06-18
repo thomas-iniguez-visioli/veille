@@ -1,5 +1,0 @@
----
-title: Cyberhaven
-layout: category
----
-              

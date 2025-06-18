@@ -1,5 +1,0 @@
----
-title: Cultura
-layout: category
----
-              

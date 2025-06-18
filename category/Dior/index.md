@@ -1,5 +1,0 @@
----
-title: Dior
-layout: category
----
-              

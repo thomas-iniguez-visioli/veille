@@ -393,3 +393,13 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
+deploy:
+  - type: git
+    repo: 
+      github:
+        url: "https://github.com/thomas-iniguez-visioli/veille.git"
+        branches: "pages"
+        token: $TOKEN
+    message: "chore: update build"
+    name: alphaleadership
+    email: alphaleadershipyt@protonmail.com

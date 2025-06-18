@@ -5,6 +5,7 @@ lien: "https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-d
 
 ---
 
+<<<<<<< HEAD
 Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
 
             
@@ -29,11 +30,38 @@ venez vous mesurer aux épreuves du CTF de l’ANSSI et tentez de gagner votre p
             
 Le France Cybersecurity Challenge (FCSC) est un Capture The Flag (CTF) de type jeopardy créé par les équipes de l’ANSSI et lancé en 2019.
 
+=======
+Le France Cybersecurity Challenge (FCSC) démarre aujourd’hui !
+
+            
+
+
+      anssiadm
+lun 21/04/2025 - 07:04
+
+            
+Jusqu’au 27 avril 2025
+venez vous mesurer aux épreuves du CTF de l’ANSSI et tentez de gagner votre place au sein de la Team France qui défendra nos couleurs lors de l’European Cybersecurity Challenge.
+
+      
+      
+
+              
+  
+
+    
+
+      
+            
+Le France Cybersecurity Challenge (FCSC) est un Capture The Flag (CTF) de type jeopardy créé par les équipes de l’ANSSI et lancé en 2019.
+
+>>>>>>> 804b47691 (temp)
 Plus de 100 épreuves vous attendent : crypto
 pwn
 hardware
 web
 forensics… Avec une grande nouveauté : une journée de « speedrun » qui se déroulera le samedi 26 avril.
+<<<<<<< HEAD
 
 Rendez-vous sur FCSC 2025 !
 
@@ -55,6 +83,29 @@ Trois catégories d'âge à l'inscription
 
 Catégorie junior :
 
+=======
+
+Rendez-vous sur FCSC 2025 !
+
+
+      
+    
+
+  
+
+
+              
+  
+
+    
+
+      
+            
+Trois catégories d'âge à l'inscription
+
+Catégorie junior :
+
+>>>>>>> 804b47691 (temp)
 
 Être né(e)s en 2005
 2006
@@ -62,6 +113,7 @@ Catégorie junior :
 2008
 2009
 2010 ou 2011 ;
+<<<<<<< HEAD
 
 Être de nationalité française ;
 
@@ -70,11 +122,22 @@ Candidater pour intégrer la Team France et participer à l'European Cybersecuri
 
 Catégorie senior :
 
+=======
+
+Être de nationalité française ;
+
+Candidater pour intégrer la Team France et participer à l'European Cybersecurity Challenge (ECSC).
+
+
+Catégorie senior :
+
+>>>>>>> 804b47691 (temp)
 
 Être né(e)s en 2000
 2001
 2002
 2003 ou 2004 ;
+<<<<<<< HEAD
 
 Être de nationalité française ;
 
@@ -113,4 +176,44 @@ du 6 au 10 octobre 2025.
 
           
           
+=======
+
+Être de nationalité française ;
+
+Candidater pour intégrer la Team France et participer à l'European Cybersecurity Challenge (ECSC).
+
+
+Hors catégorie :
+
+
+Si vous n'êtes pas éligible pour une question d'âge ;
+
+Si vous n'êtes pas de nationalité française ;
+
+Si vous ne souhaitez pas candidater pour intégrer la Team France et participer à l'European Cybersecurity Challenge (ECSC).
+
+
+Sélection pour l’European Cybersecurity Challenge
+
+Vous avez moins de 25 ans ? Le FCSC est l’opportunité pour vous d’être sélectionné pour intégrer la Team France qui représentera le drapeau tricolore lors de l’European Cybersecurity Challenge (ECSC) 2025. La prochaine édition aura lieu à Varsovie en Pologne
+du 6 au 10 octobre 2025.
+
+
+      
+    
+
+  
+
+
+              
+
+
+
+  
+
+  
+
+          
+          
+>>>>>>> 804b47691 (temp)
         FCSC 2025

@@ -5,6 +5,7 @@ lien: "https://cyber.gouv.fr/actualites/lanssi-publie-ses-guides-sur-la-remediat
 
 ---
 
+<<<<<<< HEAD
 L’ANSSI publie ses guides sur la remédiation d’incidents en anglais
 
             
@@ -21,6 +22,24 @@ mer 16/04/2025 - 12:39
     
 
       
+=======
+L’ANSSI publie ses guides sur la remédiation d’incidents en anglais
+
+            
+
+
+      anssiadm
+mer 16/04/2025 - 12:39
+
+      
+
+              
+  
+
+    
+
+      
+>>>>>>> 804b47691 (temp)
             
 Suite au lancement
 en janvier 2024
@@ -28,6 +47,7 @@ d’un corpus sur la remédiation post-incident et l’intégration de trois gui
 opérationnel
 technique) à cette collection
 l’ANSSI publie les traductions de ces trois guides en anglais.
+<<<<<<< HEAD
 
 L’objectif de ces traductions est de poursuivre la diffusion des piliers doctrinaux élaborés par l’ANSSI
 à l’échelle européenne et internationale.
@@ -51,4 +71,29 @@ Les traductions peuvent être retrouvées sur la page suivante du site de l’AN
     
 
       
+=======
+
+L’objectif de ces traductions est de poursuivre la diffusion des piliers doctrinaux élaborés par l’ANSSI
+à l’échelle européenne et internationale.
+
+En parallèle
+le chantier de l’ANSSI sur la remédiation se poursuit. Le corpus (Piloter la remédiation d’un incident cyber | ANSSI) a vocation à être progressivement enrichi de nouveaux documents
+sur la base des échanges menés activement par l’agence avec l’écosystème.
+
+Les traductions peuvent être retrouvées sur la page suivante du site de l’ANSSI en anglais :
+
+
+      
+    
+
+  
+
+
+              
+  
+
+    
+
+      
+>>>>>>> 804b47691 (temp)
         Voir les guides sur la remédiation en anglais

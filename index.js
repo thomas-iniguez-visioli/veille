@@ -28,10 +28,10 @@ parser.parseURL(rssUrl)
         const config = yaml.load(configContent);
         const buildContent = fs.readFileSync(buildFilePath, 'utf8');
         const build = yaml.load(buildContent);
-        if (!config.category_map) {
-          config.category_map = [];
-        }if(! config.category_map.includes(Dir)){
-        config.category_map.push(Dir);}
+        if (!config.categories) {
+          config.categories = [];
+        }if(! config.categories.includes(Dir)){
+        config.categories.push(Dir);}
          if(!fs.existsSync(path.join(PostDir,l(item.link)))){
           fs.mkdirSync(path.join(PostDir,l(item.link)))
         }
@@ -42,8 +42,8 @@ parser.parseURL(rssUrl)
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
-        config.category_map.map((item)=>{
-          const catpat=`./category/${item}/index.md`
+        config.categories.map((item)=>{
+          const catpat=`./source/categories/${item}/index.md`
           if(!fs.existsSync(path.dirname(catpat))){
             fs.mkdirSync(path.dirname(catpat),{recursive:true})
           }
@@ -57,7 +57,8 @@ parser.parseURL(rssUrl)
 title: ${postTitle.replace("#","")}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
-
+category:
+    - ${Dir}
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}

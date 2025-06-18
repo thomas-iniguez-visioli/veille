@@ -175,12 +175,14 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
+
 deploy:
-  type: git
-  repo:
-    github:
-      url: https://github.com/alphaleadership/feed
-      branch: pages
-      token: $GITHUB_TOKEN
-  Username: alphaleadership
-  email: thomas.iniguez@free.fr
+  - type: git
+    repo: 
+      github:
+        url: "https://github.com/thomas-iniguez-visioli/veille.git"
+        branch: "pages"
+        token: $TOKEN
+    message: "chore: update build"
+    name: alphaleadership
+    email: alphaleadershipyt@protonmail.com

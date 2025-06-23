@@ -42,7 +42,11 @@ parser.parseURL(rssUrl)
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n','').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
+<<<<<<< HEAD
         config.categories.map((item)=>{
+=======
+      /*  config.categories.map((item)=>{
+>>>>>>> 3d2889fded (temp)
           const catpat=`./source/categories/${item}/index.md`
           if(!fs.existsSync(path.dirname(catpat))){
             fs.mkdirSync(path.dirname(catpat),{recursive:true})
@@ -51,7 +55,7 @@ parser.parseURL(rssUrl)
             fs.writeFileSync(catpat,`---\ntitle: ${item}\nlayout: category\n---
               `)
           }
-        })
+        })*/
       if (!fs.existsSync(postFilePath)) {
         const postContentHexo = `---
 title: ${postTitle.replace("#","")}
